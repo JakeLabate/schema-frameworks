@@ -1,0 +1,12 @@
+{
+  "title": "Movie",
+  "page": "https://www.jakelabate.com/schema-frameworks/movie/",
+  "js": {
+    "file": "movie-schema.js",
+    "fn": "buildMovieCarouselSchema"
+  },
+  "python": {
+    "file": "movie_schema.py",
+    "fn": "build_movie_carousel_schema"
+  }
+}

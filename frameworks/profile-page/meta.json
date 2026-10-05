@@ -1,0 +1,12 @@
+{
+  "title": "Profile Page",
+  "page": "https://www.jakelabate.com/schema-frameworks/profile-page/",
+  "js": {
+    "file": "profile-page-schema.js",
+    "fn": "buildProfilePageSchema"
+  },
+  "python": {
+    "file": "profile_page_schema.py",
+    "fn": "build_profile_page_schema"
+  }
+}

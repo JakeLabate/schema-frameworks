@@ -1,0 +1,60 @@
+{
+  "isIndexable": true,
+  "isContentVisible": true,
+  "url": "https://forum.example.com/t/rendering-delays-after-migration/4821",
+  "canonicalUrl": "https://forum.example.com/t/rendering-delays-after-migration/4821",
+  "isSinglePostPage": true,
+  "subforumUrl": "https://forum.example.com/c/technical-seo",
+  "post": {
+    "headline": "Rendering delays after migrating to a JS framework",
+    "text": "Since moving our product pages to client-side rendering, new URLs take two to three weeks to show rendered content in URL Inspection. Has anyone measured this?",
+    "images": [
+      "https://forum.example.com/uploads/render-timeline.png"
+    ],
+    "author": {
+      "name": "mkhan",
+      "url": "https://forum.example.com/u/mkhan"
+    },
+    "datePublished": "2026-09-28T10:14:00-04:00",
+    "dateModified": "2026-09-28T11:02:00-04:00",
+    "stats": {
+      "likes": 18,
+      "views": 1240
+    },
+    "commentCount": 3,
+    "comments": [
+      {
+        "text": "We saw the same pattern. Server-rendering the main content cut it to a few days.",
+        "author": {
+          "name": "priya_r",
+          "url": "https://forum.example.com/u/priya_r"
+        },
+        "datePublished": "2026-09-28T12:40:00-04:00",
+        "url": "https://forum.example.com/t/rendering-delays-after-migration/4821/2",
+        "stats": {
+          "likes": 9
+        },
+        "comments": [
+          {
+            "text": "Did you keep hydration for the reviews widget?",
+            "author": {
+              "name": "mkhan",
+              "url": "https://forum.example.com/u/mkhan"
+            },
+            "datePublished": "2026-09-28T13:05:00-04:00",
+            "url": "https://forum.example.com/t/rendering-delays-after-migration/4821/3"
+          }
+        ]
+      },
+      {
+        "text": "Check whether your sitemap lastmod values changed during the migration.",
+        "author": {
+          "name": "dlee",
+          "url": "https://forum.example.com/u/dlee"
+        },
+        "datePublished": "2026-09-29T08:20:00-04:00",
+        "url": "https://forum.example.com/t/rendering-delays-after-migration/4821/4"
+      }
+    ]
+  }
+}

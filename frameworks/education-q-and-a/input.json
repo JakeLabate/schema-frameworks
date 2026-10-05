@@ -1,0 +1,31 @@
+{
+  "url": "https://www.example.com/biology/cell-transport-flashcards",
+  "canonicalUrl": "https://www.example.com/biology/cell-transport-flashcards",
+  "indexable": true,
+  "questionsVisible": true,
+  "concepts": [
+    "Cell transport"
+  ],
+  "alignments": [
+    {
+      "type": "educationalSubject",
+      "targetName": "Biology"
+    },
+    {
+      "type": "educationalLevel",
+      "targetName": "Grade 7: Cell Structure"
+    }
+  ],
+  "flashcards": [
+    {
+      "format": "flashcard",
+      "question": "What is the process by which molecules move from high to low concentration?",
+      "answer": "Diffusion"
+    },
+    {
+      "format": "flashcard",
+      "question": "Which organelle controls what enters and leaves the cell?",
+      "answer": "The cell membrane"
+    }
+  ]
+}

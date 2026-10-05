@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Car",
+  "name": "Used 2023 Honda CR-V EX-L AWD",
+  "description": "One-owner 2023 Honda CR-V EX-L with all-wheel drive, leather seats and a clean history report.",
+  "image": [
+    "https://www.example.com/photos/h24817-front-16x9.jpg",
+    "https://www.example.com/photos/h24817-side-4x3.jpg",
+    "https://www.example.com/photos/h24817-interior-1x1.jpg"
+  ],
+  "url": "https://www.example.com/inventory/2023-honda-cr-v-ex-l-awd-h24817",
+  "category": "Vehicles & Parts > Vehicles > Motor Vehicles > Cars, Trucks & Vans",
+  "sku": "H24817",
+  "vehicleIdentificationNumber": "7FARS4H75PE012345",
+  "brand": {
+    "@type": "Brand",
+    "name": "Honda"
+  },
+  "model": "CR-V",
+  "vehicleModelDate": "2023",
+  "bodyType": "SUV",
+  "color": "Meteorite Gray Metallic",
+  "fuelType": "Gasoline",
+  "vehicleTransmission": "Automatic (CVT)",
+  "driveWheelConfiguration": "https://schema.org/AllWheelDriveConfiguration",
+  "numberOfDoors": 4,
+  "mileageFromOdometer": {
+    "@type": "QuantitativeValue",
+    "value": 21450,
+    "unitCode": "SMI"
+  },
+  "itemCondition": "https://schema.org/UsedCondition",
+  "offers": {
+    "@type": "Offer",
+    "price": 31995,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/UsedCondition",
+    "url": "https://www.example.com/inventory/2023-honda-cr-v-ex-l-awd-h24817",
+    "priceValidUntil": "2026-11-30",
+    "seller": {
+      "@type": "AutoDealer",
+      "name": "Example Honda of Waltham"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ImageObject",
+  "contentUrl": "https://www.example.com/photos/full/harbor-fog-at-dawn.jpg",
+  "license": "https://www.example.com/license/standard",
+  "acquireLicensePage": "https://www.example.com/photos/harbor-fog-at-dawn/license",
+  "creditText": "Rachel Kim / Example Photo Agency",
+  "copyrightNotice": "© 2026 Example Photo Agency",
+  "creator": {
+    "@type": "Person",
+    "name": "Rachel Kim",
+    "url": "https://www.example.com/photographers/rachel-kim"
+  }
+}

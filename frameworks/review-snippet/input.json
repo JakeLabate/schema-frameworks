@@ -1,0 +1,21 @@
+{
+  "url": "https://www.example.com/reviews/trailhead-35l-backpack",
+  "canonicalUrl": "https://www.example.com/reviews/trailhead-35l-backpack",
+  "indexable": true,
+  "contentVisible": true,
+  "siteControlledByReviewedEntity": false,
+  "item": {
+    "type": "Product",
+    "name": "Trailhead 35L Hiking Backpack",
+    "url": "https://www.example.org/products/trailhead-35l"
+  },
+  "review": {
+    "authorName": "Dana Whitfield",
+    "rating": {
+      "value": 4,
+      "best": 5,
+      "worst": 1
+    },
+    "datePublished": "2026-09-21"
+  }
+}

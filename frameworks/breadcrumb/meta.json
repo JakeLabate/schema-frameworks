@@ -1,0 +1,12 @@
+{
+  "title": "Breadcrumb",
+  "page": "https://www.jakelabate.com/schema-frameworks/breadcrumb/",
+  "js": {
+    "file": "breadcrumb-schema.js",
+    "fn": "buildBreadcrumbSchema"
+  },
+  "python": {
+    "file": "breadcrumb_schema.py",
+    "fn": "build_breadcrumb_schema"
+  }
+}

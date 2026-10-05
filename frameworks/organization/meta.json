@@ -1,0 +1,12 @@
+{
+  "title": "Organization",
+  "page": "https://www.jakelabate.com/schema-frameworks/organization/",
+  "js": {
+    "file": "organization-schema.js",
+    "fn": "buildOrganizationSchema"
+  },
+  "python": {
+    "file": "organization_schema.py",
+    "fn": "build_organization_schema"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Math Solvers",
+  "page": "https://www.jakelabate.com/schema-frameworks/math-solvers/",
+  "js": {
+    "file": "math-solvers-schema.js",
+    "fn": "buildMathSolverSchema"
+  },
+  "python": {
+    "file": "math_solvers_schema.py",
+    "fn": "build_math_solver_schema"
+  }
+}

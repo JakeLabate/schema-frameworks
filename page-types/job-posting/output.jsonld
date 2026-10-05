@@ -1,0 +1,93 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.example.com/careers/store-associate-portland/#webpage",
+      "url": "https://www.example.com/careers/store-associate-portland/",
+      "name": "Store Associate, Portland | Harbor & Pine Careers",
+      "isPartOf": {
+        "@id": "https://www.example.com/#website"
+      },
+      "breadcrumb": {
+        "@id": "https://www.example.com/careers/store-associate-portland/#breadcrumb"
+      },
+      "mainEntity": {
+        "@id": "https://www.example.com/careers/store-associate-portland/#job"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.example.com/careers/store-associate-portland/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.example.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Careers",
+          "item": "https://www.example.com/careers/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Store Associate, Portland",
+          "item": "https://www.example.com/careers/store-associate-portland/"
+        }
+      ]
+    },
+    {
+      "@type": "JobPosting",
+      "@id": "https://www.example.com/careers/store-associate-portland/#job",
+      "title": "Store Associate",
+      "description": "<p>Help customers find the right gear for the trail, run the till and keep the floor stocked at our Commercial Street store.</p><ul><li>Product advice and fitting</li><li>Receiving and stocking</li><li>Opening and closing shifts</li></ul><p>Staff discount and paid time off for guided trips.</p>",
+      "identifier": {
+        "@type": "PropertyValue",
+        "name": "Harbor & Pine",
+        "value": "2219"
+      },
+      "datePosted": "2026-09-28",
+      "validThrough": "2026-11-30T23:59:59-05:00",
+      "employmentType": [
+        "PART_TIME",
+        "TEMPORARY"
+      ],
+      "hiringOrganization": {
+        "@id": "https://www.example.com/#organization"
+      },
+      "jobLocation": {
+        "@type": "Place",
+        "@id": "https://www.example.com/stores/portland/#location",
+        "name": "Harbor & Pine Portland",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "214 Commercial Street",
+          "addressLocality": "Portland",
+          "addressRegion": "ME",
+          "postalCode": "04101",
+          "addressCountry": "US"
+        }
+      },
+      "baseSalary": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": {
+          "@type": "QuantitativeValue",
+          "minValue": 18,
+          "maxValue": 21,
+          "unitText": "HOUR"
+        }
+      },
+      "directApply": true,
+      "experienceRequirements": {
+        "@type": "OccupationalExperienceRequirements",
+        "monthsOfExperience": 6
+      },
+      "experienceInPlaceOfEducation": true
+    }
+  ]
+}

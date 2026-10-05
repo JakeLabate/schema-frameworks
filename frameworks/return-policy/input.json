@@ -1,0 +1,66 @@
+{
+  "url": "https://www.example.com/policies/returns",
+  "canonicalUrl": "https://www.example.com/policies/returns",
+  "indexable": true,
+  "contentVisible": true,
+  "pageRole": "return_policy",
+  "organization": {
+    "kind": "online_store",
+    "name": "Trailhead Outfitters",
+    "url": "https://www.example.com/"
+  },
+  "policies": [
+    {
+      "countries": [
+        "US",
+        "CA"
+      ],
+      "returnToCountries": [
+        "US"
+      ],
+      "category": "finite",
+      "days": 30,
+      "link": "https://www.example.com/policies/returns",
+      "methods": [
+        "mail",
+        "in_store"
+      ],
+      "fees": "shipping_fee",
+      "shippingFee": {
+        "value": 6.95,
+        "currency": "USD"
+      },
+      "label": "download",
+      "refundTypes": [
+        "full",
+        "store_credit"
+      ],
+      "conditions": [
+        "new"
+      ],
+      "restockingFee": {
+        "percent": 0
+      },
+      "customerRemorse": {
+        "fees": "shipping_fee",
+        "shippingFee": {
+          "value": 6.95,
+          "currency": "USD"
+        },
+        "label": "download"
+      },
+      "itemDefect": {
+        "fees": "free",
+        "label": "in_box"
+      },
+      "seasonalOverrides": [
+        {
+          "category": "finite",
+          "days": 60,
+          "start": "2026-11-20",
+          "end": "2026-12-31"
+        }
+      ]
+    }
+  ]
+}

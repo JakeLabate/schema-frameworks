@@ -1,0 +1,53 @@
+{
+  "url": "https://www.example.com/about",
+  "canonicalUrl": "https://www.example.com/about",
+  "indexable": true,
+  "contentVisible": true,
+  "pageRole": "organization_details",
+  "organization": {
+    "kind": "online_store",
+    "name": "Trailhead Outfitters",
+    "url": "https://www.example.com/"
+  },
+  "memberPrograms": [
+    {
+      "key": "basecamp",
+      "name": "Basecamp Rewards",
+      "description": "Earn points on every order and unlock member prices on gear and free 2-day shipping.",
+      "signupUrl": "https://www.example.com/rewards",
+      "tiers": [
+        {
+          "key": "trail",
+          "name": "Trail",
+          "benefits": [
+            "points"
+          ],
+          "pointsPerCurrencyUnit": 1,
+          "requirement": {
+            "type": "text",
+            "text": "Create a free online account"
+          },
+          "signupUrl": "https://www.example.com/rewards/join"
+        },
+        {
+          "key": "summit",
+          "name": "Summit",
+          "benefits": [
+            "points",
+            "member_price"
+          ],
+          "pointsPerCurrencyUnit": 3,
+          "requirement": {
+            "type": "paid_membership",
+            "price": 49,
+            "currency": "USD",
+            "billingDuration": 12,
+            "billingIncrement": 1,
+            "unitCode": "MON"
+          },
+          "signupUrl": "https://www.example.com/rewards/summit"
+        }
+      ]
+    }
+  ]
+}

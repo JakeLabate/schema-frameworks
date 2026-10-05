@@ -1,0 +1,89 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://www.example.com/data/charles-river-water-temperature#dataset",
+  "name": "Charles River Hourly Water Temperature, 2016 to 2025",
+  "description": "Hourly water temperature readings from 12 monitoring stations along the Charles River, Massachusetts, collected from January 2016 to December 2025 and quality controlled in 2026.",
+  "alternateName": [
+    "CRWT 2016-2025"
+  ],
+  "url": "https://www.example.com/data/charles-river-water-temperature",
+  "sameAs": [
+    "https://catalog.example.org/records/crwt-2016-2025"
+  ],
+  "identifier": [
+    "https://doi.org/10.5555/example.crwt.2026"
+  ],
+  "version": "2026.1",
+  "keywords": [
+    "water temperature",
+    "rivers",
+    "hydrology",
+    "Massachusetts"
+  ],
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "isAccessibleForFree": true,
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Josiah Carberry",
+      "givenName": "Josiah",
+      "familyName": "Carberry",
+      "url": "https://www.example.com/people/josiah-carberry",
+      "sameAs": "https://orcid.org/0000-0002-1825-0097"
+    }
+  ],
+  "funder": [
+    {
+      "@type": "Organization",
+      "name": "Example Watershed Foundation",
+      "url": "https://foundation.example.com/",
+      "sameAs": "https://ror.org/0abcdef12"
+    }
+  ],
+  "citation": [
+    "https://doi.org/10.5555/example.article.2025"
+  ],
+  "temporalCoverage": "2016-01-01/2025-12-31",
+  "spatialCoverage": {
+    "@type": "Place",
+    "name": "Charles River watershed, Massachusetts",
+    "geo": {
+      "@type": "GeoShape",
+      "box": "42.1 -71.6 42.4 -71"
+    }
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "Water temperature",
+      "unitText": "degrees Celsius"
+    }
+  ],
+  "measurementTechnique": [
+    "Submerged thermistor loggers, 60 minute sampling interval"
+  ],
+  "isPartOf": [
+    "https://www.example.com/data/new-england-river-observations"
+  ],
+  "hasPart": [
+    "https://www.example.com/data/charles-river-water-temperature/2025"
+  ],
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "Example River Institute Data Catalog",
+    "url": "https://www.example.com/data/"
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://www.example.com/data/files/crwt-2016-2025.csv",
+      "encodingFormat": "text/csv"
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://www.example.com/data/files/crwt-2016-2025.parquet",
+      "encodingFormat": "application/vnd.apache.parquet"
+    }
+  ]
+}

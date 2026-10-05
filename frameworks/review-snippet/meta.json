@@ -1,0 +1,12 @@
+{
+  "title": "Review Snippet",
+  "page": "https://www.jakelabate.com/schema-frameworks/review-snippet/",
+  "js": {
+    "file": "review-snippet-schema.js",
+    "fn": "buildReviewSnippetSchema"
+  },
+  "python": {
+    "file": "review_snippet_schema.py",
+    "fn": "build_review_snippet_schema"
+  }
+}

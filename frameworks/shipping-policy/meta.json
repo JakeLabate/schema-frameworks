@@ -1,0 +1,12 @@
+{
+  "title": "Shipping Policy",
+  "page": "https://www.jakelabate.com/schema-frameworks/shipping-policy/",
+  "js": {
+    "file": "shipping-policy-schema.js",
+    "fn": "buildShippingPolicySchema"
+  },
+  "python": {
+    "file": "shipping_policy_schema.py",
+    "fn": "build_shipping_policy_schema"
+  }
+}

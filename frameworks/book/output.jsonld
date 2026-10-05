@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Book",
+  "@id": "https://www.example.com/books/the-salt-road#work",
+  "name": "The Salt Road",
+  "url": "https://www.example.com/books/the-salt-road",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Elena Marsh",
+      "sameAs": "https://en.wikipedia.org/wiki/Elena_Marsh"
+    }
+  ],
+  "sameAs": "https://www.wikidata.org/wiki/Q00000000",
+  "workExample": [
+    {
+      "@type": "Book",
+      "@id": "https://www.example.com/books/the-salt-road/ebook#edition",
+      "url": "https://www.example.com/books/the-salt-road/ebook",
+      "bookFormat": "https://schema.org/EBook",
+      "inLanguage": "en",
+      "isbn": "9780306406157",
+      "bookEdition": "2nd Edition",
+      "datePublished": "2026-02-10",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "OCLC_NUMBER",
+          "value": "1234567"
+        }
+      ],
+      "sameAs": "https://www.example.com/catalog/9780306406157",
+      "potentialAction": [
+        {
+          "@type": "ReadAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://www.example.com/checkout/the-salt-road-ebook",
+            "actionPlatform": [
+              "https://schema.org/DesktopWebPlatform",
+              "https://schema.org/AndroidPlatform",
+              "https://schema.org/IOSPlatform"
+            ]
+          },
+          "expectsAcceptanceOf": [
+            {
+              "@type": "Offer",
+              "category": "purchase",
+              "price": 14.99,
+              "priceCurrency": "USD",
+              "availabilityStarts": "2026-02-10T00:00:00-05:00",
+              "availabilityEnds": "2027-12-31T23:59:59-05:00",
+              "eligibleRegion": [
+                {
+                  "@type": "Country",
+                  "name": "US"
+                },
+                {
+                  "@type": "Country",
+                  "name": "CA"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

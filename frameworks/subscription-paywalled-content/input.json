@@ -1,0 +1,33 @@
+{
+  "page": {
+    "url": "https://www.example.com/news/2026/09/ports-automation-analysis",
+    "canonicalUrl": "https://www.example.com/news/2026/09/ports-automation-analysis",
+    "noindex": false,
+    "contentVisible": true
+  },
+  "contentType": "news",
+  "title": "Inside the Automation Push at East Coast Ports",
+  "images": [
+    "https://www.example.com/media/ports-automation-16x9.jpg",
+    "https://www.example.com/media/ports-automation-4x3.jpg",
+    "https://www.example.com/media/ports-automation-1x1.jpg"
+  ],
+  "datePublished": "2026-09-22T06:30:00-04:00",
+  "dateModified": "2026-09-23T10:15:00-04:00",
+  "authors": [
+    {
+      "type": "Person",
+      "name": "Priya Raman",
+      "url": "https://www.example.com/staff/priya-raman"
+    }
+  ],
+  "isAccessibleForFree": false,
+  "paywalledSections": [
+    {
+      "selector": ".paywall",
+      "matchCount": 1,
+      "containsOtherSection": false,
+      "insideOtherSection": false
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "url": "https://www.example.com/events/harbor-lights-quartet-boston",
+  "canonicalUrl": "https://www.example.com/events/harbor-lights-quartet-boston",
+  "indexable": true,
+  "contentVisible": true,
+  "name": "Harbor Lights Quartet: Winter Standards Night",
+  "description": "An evening of jazz standards from the Harbor Lights Quartet, with a guest vocalist for the second set.",
+  "startDate": "2026-11-14T19:30:00-05:00",
+  "endDate": "2026-11-14T22:00:00-05:00",
+  "status": "scheduled",
+  "attendanceMode": "offline",
+  "venue": {
+    "name": "Riverside Music Hall",
+    "address": {
+      "street": "120 Moody Street",
+      "locality": "Waltham",
+      "region": "MA",
+      "postalCode": "02453",
+      "country": "US"
+    }
+  },
+  "images": [
+    "https://www.example.com/images/harbor-lights-16x9.jpg",
+    "https://www.example.com/images/harbor-lights-4x3.jpg",
+    "https://www.example.com/images/harbor-lights-1x1.jpg"
+  ],
+  "tickets": [
+    {
+      "name": "General admission",
+      "price": 35,
+      "currency": "usd",
+      "availability": "in_stock",
+      "onSaleFrom": "2026-09-01T10:00:00-04:00",
+      "url": "https://www.example.com/events/harbor-lights-quartet-boston/tickets"
+    }
+  ],
+  "organizer": {
+    "type": "Organization",
+    "name": "Riverside Music Hall",
+    "url": "https://www.example.com"
+  },
+  "performers": [
+    {
+      "type": "PerformingGroup",
+      "name": "Harbor Lights Quartet"
+    }
+  ]
+}

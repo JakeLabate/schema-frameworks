@@ -1,0 +1,103 @@
+{
+  "url": "https://www.example.com/shop/ridgeline-rain-jacket-womens",
+  "canonicalUrl": "https://www.example.com/shop/ridgeline-rain-jacket-womens",
+  "indexable": true,
+  "contentVisible": true,
+  "purchasable": true,
+  "name": "Ridgeline 3L Waterproof Rain Jacket, Women's",
+  "description": "Three-layer waterproof shell with pit zips, a helmet-compatible hood and taped seams.",
+  "images": [
+    "https://www.example.com/img/ridgeline-womens-1x1.jpg",
+    "https://www.example.com/img/ridgeline-womens-4x3.jpg",
+    "https://www.example.com/img/ridgeline-womens-16x9.jpg"
+  ],
+  "brand": "Trailhead Outfitters",
+  "sku": "TH-RIDGE-W-SPR-M",
+  "mpn": "RDG3L-W-26",
+  "gtin": "00812345670142",
+  "category": "Apparel & Accessories > Clothing > Outerwear > Coats & Jackets",
+  "color": "Spruce",
+  "material": "Recycled nylon",
+  "pattern": "Solid",
+  "size": "M",
+  "audience": {
+    "gender": "female",
+    "minAge": 13
+  },
+  "rating": {
+    "ratingValue": 4.6,
+    "reviewCount": 128
+  },
+  "reviews": [
+    {
+      "authorName": "Priya Shah",
+      "rating": {
+        "ratingValue": 5
+      },
+      "datePublished": "2026-09-14"
+    }
+  ],
+  "offer": {
+    "url": "https://www.example.com/shop/ridgeline-rain-jacket-womens",
+    "price": 179,
+    "currency": "USD",
+    "strikethroughPrice": 229,
+    "memberPrice": {
+      "price": 161,
+      "tierId": "https://www.example.com/rewards#tier-gold",
+      "pointsEarned": 179
+    },
+    "validFrom": "2026-10-01T00:00:00-04:00",
+    "validThrough": "2026-10-31T23:59:59-04:00",
+    "priceValidUntil": "2026-10-31",
+    "availability": "InStock",
+    "condition": "NewCondition"
+  },
+  "shipsFrom": {
+    "country": "US",
+    "regions": [
+      "MA"
+    ]
+  },
+  "shipping": [
+    {
+      "country": "US",
+      "rate": 0,
+      "currency": "USD",
+      "handlingDays": [
+        0,
+        1
+      ],
+      "transitDays": [
+        2,
+        5
+      ],
+      "cutoffTime": "14:00:00-04:00",
+      "businessDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "returns": {
+    "countries": [
+      "US"
+    ],
+    "returnToCountries": [
+      "US"
+    ],
+    "category": "finite",
+    "days": 30,
+    "methods": [
+      "mail",
+      "in_store"
+    ],
+    "fees": "shipping_fee",
+    "feeAmount": 6.95,
+    "feeCurrency": "USD",
+    "link": "https://www.example.com/help/returns"
+  }
+}

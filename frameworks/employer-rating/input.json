@@ -1,0 +1,17 @@
+{
+  "url": "https://www.example.com/companies/example-retail-group/ratings",
+  "canonicalUrl": "https://www.example.com/companies/example-retail-group/ratings",
+  "indexable": true,
+  "contentVisible": true,
+  "acceptsUserRatings": true,
+  "ratingsHostedOnSite": true,
+  "employer": {
+    "name": "Example Retail Group",
+    "url": "https://www.example.org"
+  },
+  "ratingValue": 4.2,
+  "ratingCount": 318,
+  "reviewCount": 127,
+  "bestRating": 5,
+  "worstRating": 1
+}

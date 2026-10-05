@@ -1,0 +1,30 @@
+{
+  "page": {
+    "url": "https://math.example.com/",
+    "canonicalUrl": "https://math.example.com/",
+    "noindex": false,
+    "contentVisible": true
+  },
+  "name": "Example Math Solver",
+  "privacyPolicyUrl": "https://math.example.com/privacy",
+  "languages": [
+    "en",
+    "es"
+  ],
+  "actions": [
+    {
+      "target": "https://math.example.com/solve?q={math_expression_string}",
+      "problemTypes": [
+        "polynomial equation",
+        "Derivative",
+        "Quadratic Equation",
+        "Matrix multiplication"
+      ]
+    }
+  ],
+  "assesses": [
+    "Polynomial Equation",
+    "Derivative",
+    "Quadratic Equation"
+  ]
+}

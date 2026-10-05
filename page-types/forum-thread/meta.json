@@ -1,0 +1,10 @@
+{
+  "title": "Forum Thread Page",
+  "page": "https://www.jakelabate.com/schema-frameworks/page-types/forum-thread/",
+  "js": {
+    "file": "forum-thread-page-schema.js",
+    "fn": "buildForumThreadPageSchema"
+  },
+  "python": null,
+  "linksTo": "homepage"
+}

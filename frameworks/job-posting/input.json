@@ -1,0 +1,40 @@
+{
+  "url": "https://www.example.com/careers/senior-technical-seo-analyst",
+  "canonicalUrl": "https://www.example.com/careers/senior-technical-seo-analyst",
+  "indexable": true,
+  "contentVisible": true,
+  "title": "Senior Technical SEO Analyst",
+  "descriptionHtml": "<p>Own technical SEO for a 40,000 page ecommerce catalog.</p><ul><li>Audit crawling, rendering and indexing</li><li>Ship structured data with engineering</li></ul><p>Hybrid schedule, three days a week in our Waltham office.</p>",
+  "datePosted": "2026-09-28",
+  "validThrough": "2026-12-31T23:59:00-05:00",
+  "hiringOrganization": {
+    "name": "Example Retail Group",
+    "url": "https://www.example.com",
+    "logo": "https://www.example.com/images/logo-square.png"
+  },
+  "locations": [
+    {
+      "street": "50 Main Street",
+      "locality": "Waltham",
+      "region": "MA",
+      "postalCode": "02453",
+      "country": "US"
+    }
+  ],
+  "fullyRemote": false,
+  "employmentTypes": [
+    "FULL_TIME"
+  ],
+  "postedByEmployer": true,
+  "salary": {
+    "currency": "USD",
+    "min": 110000,
+    "max": 135000,
+    "unit": "YEAR"
+  },
+  "directApply": true,
+  "requisitionId": "SEO-2026-114",
+  "education": "bachelor degree",
+  "monthsOfExperience": 48,
+  "experienceInPlaceOfEducation": true
+}

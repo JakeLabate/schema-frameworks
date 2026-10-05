@@ -1,0 +1,12 @@
+{
+  "title": "Event",
+  "page": "https://www.jakelabate.com/schema-frameworks/event/",
+  "js": {
+    "file": "event-schema.js",
+    "fn": "buildEventSchema"
+  },
+  "python": {
+    "file": "event_schema.py",
+    "fn": "build_event_schema"
+  }
+}

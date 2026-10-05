@@ -1,0 +1,95 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.example.com/journal/how-to-waterproof-a-rain-jacket/#webpage",
+      "url": "https://www.example.com/journal/how-to-waterproof-a-rain-jacket/",
+      "name": "How to Re-Waterproof a Rain Jacket | Harbor & Pine Journal",
+      "isPartOf": {
+        "@id": "https://www.example.com/#website"
+      },
+      "breadcrumb": {
+        "@id": "https://www.example.com/journal/how-to-waterproof-a-rain-jacket/#breadcrumb"
+      },
+      "mainEntity": {
+        "@id": "https://www.example.com/journal/how-to-waterproof-a-rain-jacket/#article"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.example.com/journal/how-to-waterproof-a-rain-jacket/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.example.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Journal",
+          "item": "https://www.example.com/journal/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "How to Re-Waterproof a Rain Jacket",
+          "item": "https://www.example.com/journal/how-to-waterproof-a-rain-jacket/"
+        }
+      ]
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.example.com/journal/how-to-waterproof-a-rain-jacket/#article",
+      "headline": "How to Re-Waterproof a Rain Jacket in Four Steps",
+      "description": "Wash, dry, treat and heat: how to bring back the water beading on a tired shell jacket.",
+      "image": [
+        "https://www.example.com/img/journal/rewaterproof-1x1.jpg",
+        "https://www.example.com/img/journal/rewaterproof-4x3.jpg",
+        "https://www.example.com/img/journal/rewaterproof-16x9.jpg"
+      ],
+      "datePublished": "2026-03-12T09:00:00-04:00",
+      "dateModified": "2026-09-02T14:30:00-04:00",
+      "author": [
+        {
+          "@type": "Person",
+          "@id": "https://www.example.com/journal/authors/maya-okafor/#person",
+          "name": "Maya Okafor",
+          "url": "https://www.example.com/journal/authors/maya-okafor/",
+          "jobTitle": "Gear Editor",
+          "sameAs": [
+            "https://www.linkedin.com/in/example-maya"
+          ],
+          "worksFor": {
+            "@id": "https://www.example.com/#organization"
+          }
+        }
+      ],
+      "publisher": {
+        "@id": "https://www.example.com/#organization"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://www.example.com/journal/how-to-waterproof-a-rain-jacket/#webpage"
+      },
+      "video": {
+        "@type": "VideoObject",
+        "name": "Re-waterproofing a rain shell",
+        "description": "The four steps, start to finish, on a three-layer jacket.",
+        "thumbnailUrl": [
+          "https://www.example.com/img/journal/rewaterproof-video.jpg"
+        ],
+        "uploadDate": "2026-03-12T09:00:00-04:00",
+        "duration": "PT4M20S",
+        "embedUrl": "https://www.youtube.com/embed/example"
+      },
+      "isAccessibleForFree": false,
+      "hasPart": {
+        "@type": "WebPageElement",
+        "isAccessibleForFree": false,
+        "cssSelector": ".members-only"
+      }
+    }
+  ]
+}

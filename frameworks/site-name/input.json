@@ -1,0 +1,14 @@
+{
+  "url": "https://www.example.com/",
+  "canonicalUrl": "https://www.example.com/",
+  "indexable": true,
+  "contentVisible": true,
+  "siteName": "Trailhead Outfitters",
+  "alternateNames": [
+    "Trailhead",
+    "THO"
+  ],
+  "ogSiteName": "Trailhead Outfitters",
+  "organizationName": "Trailhead Outfitters",
+  "title": "Trailhead Outfitters: Hiking Packs, Tents and Trail Apparel"
+}

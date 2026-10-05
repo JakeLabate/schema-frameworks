@@ -1,0 +1,12 @@
+{
+  "title": "Video",
+  "page": "https://www.jakelabate.com/schema-frameworks/video/",
+  "js": {
+    "file": "video-schema.js",
+    "fn": "buildVideoObjectSchema"
+  },
+  "python": {
+    "file": "video_schema.py",
+    "fn": "build_video_object_schema"
+  }
+}

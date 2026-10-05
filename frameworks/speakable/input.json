@@ -1,0 +1,41 @@
+{
+  "page": {
+    "url": "https://www.example.com/news/2026/09/city-council-approves-transit-budget",
+    "canonicalUrl": "https://www.example.com/news/2026/09/city-council-approves-transit-budget",
+    "noindex": false,
+    "contentVisible": true,
+    "lang": "en-US"
+  },
+  "isNewsArticle": false,
+  "title": "City Council Approves 2027 Transit Budget",
+  "speakableSections": [
+    {
+      "kind": "css",
+      "selector": ".article-headline",
+      "matchCount": 1,
+      "wordCount": 6,
+      "role": "headline"
+    },
+    {
+      "kind": "css",
+      "selector": ".article-summary",
+      "matchCount": 1,
+      "wordCount": 48,
+      "role": "summary"
+    },
+    {
+      "kind": "css",
+      "selector": ".article-dateline",
+      "matchCount": 1,
+      "wordCount": 4,
+      "role": "dateline"
+    },
+    {
+      "kind": "css",
+      "selector": ".article-body",
+      "matchCount": 1,
+      "wordCount": 912,
+      "role": "body"
+    }
+  ]
+}

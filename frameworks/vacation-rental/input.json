@@ -1,0 +1,103 @@
+{
+  "url": "https://www.example.com/rentals/cedar-ridge-cottage",
+  "canonicalUrl": "https://www.example.com/rentals/cedar-ridge-cottage",
+  "indexable": true,
+  "contentVisible": true,
+  "listingId": "VR-20418",
+  "name": "Cedar Ridge Cottage",
+  "rentalType": "Cottage",
+  "description": "Two-bedroom lakeside cottage with a wood stove, dock access and a screened porch.",
+  "hotelCenterBrandId": "cedar-ridge-rentals",
+  "images": [
+    {
+      "url": "https://www.example.com/img/cedar/exterior.jpg",
+      "room": "exterior"
+    },
+    {
+      "url": "https://www.example.com/img/cedar/living-room.jpg",
+      "room": "common"
+    },
+    {
+      "url": "https://www.example.com/img/cedar/kitchen.jpg",
+      "room": "common"
+    },
+    {
+      "url": "https://www.example.com/img/cedar/bedroom-1.jpg",
+      "room": "bedroom"
+    },
+    {
+      "url": "https://www.example.com/img/cedar/bedroom-2.jpg",
+      "room": "bedroom"
+    },
+    {
+      "url": "https://www.example.com/img/cedar/bathroom.jpg",
+      "room": "bathroom"
+    },
+    {
+      "url": "https://www.example.com/img/cedar/porch.jpg",
+      "room": "common"
+    },
+    {
+      "url": "https://www.example.com/img/cedar/dock.jpg",
+      "room": "exterior"
+    }
+  ],
+  "latitude": "44.53817",
+  "longitude": "-72.81463",
+  "address": {
+    "street": "18 Ridge Road",
+    "city": "Stowe",
+    "region": "VT",
+    "postalCode": "05672",
+    "country": "US"
+  },
+  "checkinTime": "16:00:00-04:00",
+  "checkoutTime": "10:00:00-04:00",
+  "hostLanguages": [
+    "en-US",
+    "fr-CA"
+  ],
+  "unit": {
+    "placeType": "EntirePlace",
+    "maxGuests": 5,
+    "bedrooms": 2,
+    "bathrooms": 1.5,
+    "rooms": 5,
+    "floorSize": {
+      "value": 1150,
+      "unitCode": "FTK"
+    },
+    "beds": [
+      {
+        "type": "Queen",
+        "count": 1
+      },
+      {
+        "type": "Single",
+        "count": 2
+      }
+    ],
+    "amenities": {
+      "wifi": true,
+      "kitchen": true,
+      "fireplace": true,
+      "petsAllowed": false,
+      "parkingType": "Free",
+      "licenseNum": "Stowe: STR-2026-118"
+    }
+  },
+  "rating": {
+    "ratingValue": 4.9,
+    "reviewCount": 86
+  },
+  "reviews": [
+    {
+      "authorName": "Priya Raman",
+      "rating": {
+        "ratingValue": 5
+      },
+      "datePublished": "2026-08-02",
+      "stayStartDate": "2026-07-24"
+    }
+  ]
+}

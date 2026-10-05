@@ -1,0 +1,12 @@
+{
+  "title": "Software App (Beta)",
+  "page": "https://www.jakelabate.com/schema-frameworks/software-app/",
+  "js": {
+    "file": "software-app-schema.js",
+    "fn": "buildSoftwareAppSchema"
+  },
+  "python": {
+    "file": "software_app_schema.py",
+    "fn": "build_software_app_schema"
+  }
+}

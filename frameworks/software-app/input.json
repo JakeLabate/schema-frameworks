@@ -1,0 +1,26 @@
+{
+  "url": "https://www.example.com/apps/trailnote",
+  "canonicalUrl": "https://www.example.com/apps/trailnote",
+  "indexable": true,
+  "contentVisible": true,
+  "name": "TrailNote",
+  "platform": "mobile",
+  "isGame": false,
+  "operatingSystem": "Android 10, iOS 16",
+  "applicationCategory": "TravelApplication",
+  "price": 0,
+  "currency": "USD",
+  "rating": {
+    "ratingValue": 4.6,
+    "ratingCount": 1834
+  },
+  "reviews": [
+    {
+      "authorName": "Dana Whitfield",
+      "rating": {
+        "ratingValue": 5
+      },
+      "datePublished": "2026-08-14"
+    }
+  ]
+}

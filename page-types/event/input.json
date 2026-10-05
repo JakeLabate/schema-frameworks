@@ -1,0 +1,57 @@
+{
+  "site": {
+    "url": "https://www.example.com"
+  },
+  "page": {
+    "url": "https://www.example.com/events/rain-gear-care-workshop/",
+    "title": "Rain Gear Care Workshop | Harbor & Pine Portland",
+    "breadcrumbs": [
+      {
+        "name": "Home",
+        "url": "https://www.example.com/"
+      },
+      {
+        "name": "Events",
+        "url": "https://www.example.com/events/"
+      },
+      {
+        "name": "Rain Gear Care Workshop",
+        "url": "https://www.example.com/events/rain-gear-care-workshop/"
+      }
+    ]
+  },
+  "event": {
+    "name": "Rain Gear Care Workshop",
+    "description": "Bring a tired rain jacket and learn to wash, re-proof and patch it. Supplies provided.",
+    "images": [
+      "https://www.example.com/img/events/rain-gear-1x1.jpg",
+      "https://www.example.com/img/events/rain-gear-4x3.jpg",
+      "https://www.example.com/img/events/rain-gear-16x9.jpg"
+    ],
+    "start": "2026-11-14T10:00:00-05:00",
+    "end": "2026-11-14T11:30:00-05:00",
+    "status": "rescheduled",
+    "previousStart": "2026-11-07T10:00:00-05:00",
+    "venue": {
+      "name": "Harbor & Pine Portland",
+      "locationPageUrl": "https://www.example.com/stores/portland/",
+      "street": "214 Commercial Street",
+      "city": "Portland",
+      "region": "ME",
+      "postalCode": "04101",
+      "country": "US"
+    },
+    "hosts": [
+      {
+        "name": "Maya Okafor"
+      }
+    ],
+    "ticket": {
+      "price": 0,
+      "currency": "USD",
+      "url": "https://www.example.com/events/rain-gear-care-workshop/#register",
+      "onSale": "2026-10-01T09:00:00-04:00"
+    },
+    "capacity": 20
+  }
+}

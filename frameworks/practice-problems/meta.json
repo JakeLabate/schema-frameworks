@@ -1,0 +1,12 @@
+{
+  "title": "Practice Problems",
+  "page": "https://www.jakelabate.com/schema-frameworks/practice-problems/",
+  "js": {
+    "file": "practice-problems-schema.js",
+    "fn": "buildPracticeQuizSchema"
+  },
+  "python": {
+    "file": "practice_problems_schema.py",
+    "fn": "build_practice_quiz_schema"
+  }
+}

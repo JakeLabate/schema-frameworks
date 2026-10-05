@@ -1,0 +1,20 @@
+{
+  "isIndexable": true,
+  "isContentVisible": true,
+  "url": "https://www.example.com/guides/technical-seo/crawl-budget",
+  "canonicalUrl": "https://www.example.com/guides/technical-seo/crawl-budget",
+  "trail": [
+    {
+      "name": "Guides",
+      "url": "https://www.example.com/guides/"
+    },
+    {
+      "name": "Technical SEO",
+      "url": "https://www.example.com/guides/technical-seo/"
+    },
+    {
+      "name": "Crawl Budget",
+      "url": "https://www.example.com/guides/technical-seo/crawl-budget"
+    }
+  ]
+}

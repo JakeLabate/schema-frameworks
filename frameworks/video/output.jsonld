@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "How to Shape a Sourdough Boule",
+  "description": "A baker walks through pre-shaping, bench rest and final shaping for a round sourdough loaf.",
+  "thumbnailUrl": [
+    "https://www.example.com/media/shaping-sourdough-16x9.jpg",
+    "https://www.example.com/media/shaping-sourdough-4x3.jpg",
+    "https://www.example.com/media/shaping-sourdough-1x1.jpg"
+  ],
+  "uploadDate": "2026-03-14T08:00:00-05:00",
+  "duration": "PT12M34S",
+  "contentUrl": "https://cdn.example.com/video/shaping-sourdough.mp4",
+  "embedUrl": "https://www.example.com/embed/shaping-sourdough",
+  "creator": {
+    "@type": "Organization",
+    "name": "Example Bakery School",
+    "url": "https://www.example.com/about"
+  },
+  "regionsAllowed": [
+    "US",
+    "CA"
+  ],
+  "interactionStatistic": {
+    "@type": "InteractionCounter",
+    "interactionType": {
+      "@type": "WatchAction"
+    },
+    "userInteractionCount": 18452
+  },
+  "hasPart": [
+    {
+      "@type": "Clip",
+      "name": "Pre-shaping the dough",
+      "startOffset": 30,
+      "endOffset": 210,
+      "url": "https://www.example.com/videos/shaping-sourdough?t=30"
+    },
+    {
+      "@type": "Clip",
+      "name": "Bench rest",
+      "startOffset": 210,
+      "endOffset": 400,
+      "url": "https://www.example.com/videos/shaping-sourdough?t=210"
+    },
+    {
+      "@type": "Clip",
+      "name": "Final shaping and banneting",
+      "startOffset": 400,
+      "endOffset": 754,
+      "url": "https://www.example.com/videos/shaping-sourdough?t=400"
+    }
+  ]
+}

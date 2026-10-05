@@ -1,0 +1,59 @@
+{
+  "url": "https://www.example.com/locations/waltham",
+  "canonicalUrl": "https://www.example.com/locations/waltham",
+  "indexable": true,
+  "contentVisible": true,
+  "category": "restaurant",
+  "name": "Moody Street Noodle Bar",
+  "images": [
+    "https://www.example.com/images/noodle-bar-16x9.jpg",
+    "https://www.example.com/images/noodle-bar-4x3.jpg",
+    "https://www.example.com/images/noodle-bar-1x1.jpg"
+  ],
+  "telephone": "+1-781-555-0142",
+  "address": {
+    "street": "212 Moody Street",
+    "locality": "Waltham",
+    "region": "MA",
+    "postalCode": "02453",
+    "country": "US"
+  },
+  "geo": {
+    "latitude": 42.37241,
+    "longitude": -71.23683
+  },
+  "hours": [
+    {
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ],
+      "opens": "11:30",
+      "closes": "21:30"
+    },
+    {
+      "days": [
+        "Friday",
+        "Saturday"
+      ],
+      "opens": "11:30",
+      "closes": "01:00"
+    },
+    {
+      "days": [
+        "Sunday"
+      ],
+      "opens": "00:00",
+      "closes": "00:00"
+    }
+  ],
+  "priceRange": "$$",
+  "menuUrl": "https://www.example.com/locations/waltham/menu",
+  "cuisines": [
+    "Japanese",
+    "Ramen"
+  ],
+  "reviewsAreAboutOtherBusinesses": false
+}

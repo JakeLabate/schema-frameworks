@@ -1,0 +1,32 @@
+{
+  "@context": "https://schema.org",
+  "@type": [
+    "MathSolver",
+    "LearningResource"
+  ],
+  "name": "Example Math Solver",
+  "url": "https://math.example.com/",
+  "usageInfo": "https://math.example.com/privacy",
+  "inLanguage": [
+    "en",
+    "es"
+  ],
+  "potentialAction": [
+    {
+      "@type": "SolveMathAction",
+      "target": "https://math.example.com/solve?q={math_expression_string}",
+      "mathExpression-input": "required name=math_expression_string",
+      "eduQuestionType": [
+        "Polynomial Equation",
+        "Derivative",
+        "Quadratic Equation"
+      ]
+    }
+  ],
+  "learningResourceType": "Math Solver",
+  "assesses": [
+    "Polynomial Equation",
+    "Derivative",
+    "Quadratic Equation"
+  ]
+}

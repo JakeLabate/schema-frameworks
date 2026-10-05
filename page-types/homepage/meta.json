@@ -1,0 +1,10 @@
+{
+  "title": "Homepage",
+  "page": "https://www.jakelabate.com/schema-frameworks/page-types/homepage/",
+  "js": {
+    "file": "homepage-page-schema.js",
+    "fn": "buildHomepageSchema"
+  },
+  "python": null,
+  "linksTo": null
+}

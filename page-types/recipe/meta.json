@@ -1,0 +1,10 @@
+{
+  "title": "Recipe Page",
+  "page": "https://www.jakelabate.com/schema-frameworks/page-types/recipe/",
+  "js": {
+    "file": "recipe-page-schema.js",
+    "fn": "buildRecipePageSchema"
+  },
+  "python": null,
+  "linksTo": "homepage"
+}

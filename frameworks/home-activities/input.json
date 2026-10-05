@@ -1,0 +1,37 @@
+{
+  "page": {
+    "url": "https://www.example.com/classes/vinyasa-flow-2026-11-07",
+    "canonicalUrl": "https://www.example.com/classes/vinyasa-flow-2026-11-07",
+    "contentVisible": true
+  },
+  "name": "Saturday Vinyasa Flow",
+  "description": "A 60-minute all-levels vinyasa class, taught in the studio and streamed live for students practicing at home.",
+  "startDate": "2026-11-07T09:00:00-05:00",
+  "endDate": "2026-11-07T10:00:00-05:00",
+  "venue": {
+    "name": "Example Yoga Studio",
+    "streetAddress": "120 Moody Street",
+    "locality": "Waltham",
+    "region": "MA",
+    "postalCode": "02453",
+    "country": "US"
+  },
+  "streamUrl": "https://www.example.com/live/vinyasa-flow",
+  "images": [
+    "https://www.example.com/media/vinyasa-flow-16x9.jpg",
+    "https://www.example.com/media/vinyasa-flow-4x3.jpg",
+    "https://www.example.com/media/vinyasa-flow-1x1.jpg"
+  ],
+  "offer": {
+    "price": 18,
+    "currency": "USD",
+    "availability": "in_stock",
+    "validFrom": "2026-10-01T00:00:00-04:00",
+    "url": "https://www.example.com/classes/vinyasa-flow-2026-11-07/book"
+  },
+  "organizer": {
+    "name": "Example Yoga Studio",
+    "url": "https://www.example.com/"
+  },
+  "instructor": "Maya Chen"
+}

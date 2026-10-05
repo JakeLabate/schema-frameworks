@@ -1,0 +1,94 @@
+{
+  "site": {
+    "url": "https://www.example.com"
+  },
+  "page": {
+    "url": "https://www.example.com/journal/one-pot-camp-chili/",
+    "title": "One-Pot Camp Chili | Harbor & Pine Journal",
+    "breadcrumbs": [
+      {
+        "name": "Home",
+        "url": "https://www.example.com/"
+      },
+      {
+        "name": "Journal",
+        "url": "https://www.example.com/journal/"
+      },
+      {
+        "name": "One-Pot Camp Chili",
+        "url": "https://www.example.com/journal/one-pot-camp-chili/"
+      }
+    ]
+  },
+  "recipe": {
+    "name": "One-Pot Camp Chili",
+    "description": "A smoky bean and beef chili that cooks in one pot over a camp stove, ready in under an hour.",
+    "images": [
+      "https://www.example.com/img/journal/camp-chili-1x1.jpg",
+      "https://www.example.com/img/journal/camp-chili-4x3.jpg",
+      "https://www.example.com/img/journal/camp-chili-16x9.jpg"
+    ],
+    "authorProfileUrl": "https://www.example.com/journal/authors/maya-okafor/",
+    "datePublished": "2026-08-21T08:00:00-04:00",
+    "prepMinutes": 15,
+    "cookMinutes": 40,
+    "servings": 4,
+    "caloriesPerServing": 520,
+    "category": "Main course",
+    "cuisine": "American",
+    "keywords": [
+      "camp cooking",
+      "one pot",
+      "Main course",
+      "backpacking"
+    ],
+    "ingredients": [
+      "1 lb ground beef",
+      "1 onion, diced",
+      "2 cloves garlic, minced",
+      "2 tbsp chili powder",
+      "1 tsp smoked paprika",
+      "1 can (15 oz) black beans, drained",
+      "1 can (15 oz) crushed tomatoes",
+      "1 cup water",
+      "Salt to taste"
+    ],
+    "steps": [
+      {
+        "name": "Brown the beef",
+        "text": "Brown the beef in the pot over medium heat, then pour off most of the fat.",
+        "videoStart": 0
+      },
+      {
+        "name": "Soften the onion",
+        "text": "Add the onion and garlic and cook for five minutes until soft.",
+        "videoStart": 75
+      },
+      {
+        "name": "Add spices and simmer",
+        "text": "Stir in the spices, beans, tomatoes and water, cover and simmer for thirty minutes.",
+        "videoStart": 150
+      },
+      {
+        "name": "Season and serve",
+        "text": "Season with salt, rest for five minutes off the heat and serve.",
+        "videoStart": 250
+      },
+      {
+        "text": "Enjoy!"
+      }
+    ],
+    "rating": {
+      "value": 4.7,
+      "count": 86
+    },
+    "video": {
+      "name": "One-pot camp chili",
+      "description": "The whole recipe on a two-burner camp stove.",
+      "thumbnailUrl": "https://www.example.com/img/journal/camp-chili-video.jpg",
+      "uploadDate": "2026-08-21T08:00:00-04:00",
+      "durationSeconds": 312,
+      "embedUrl": "https://www.youtube.com/embed/example2"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Employer Aggregate Rating",
+  "page": "https://www.jakelabate.com/schema-frameworks/employer-rating/",
+  "js": {
+    "file": "employer-rating-schema.js",
+    "fn": "buildEmployerRatingSchema"
+  },
+  "python": {
+    "file": "employer_rating_schema.py",
+    "fn": "build_employer_rating_schema"
+  }
+}

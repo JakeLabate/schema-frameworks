@@ -1,0 +1,12 @@
+{
+  "title": "Article",
+  "page": "https://www.jakelabate.com/schema-frameworks/article/",
+  "js": {
+    "file": "article-schema.js",
+    "fn": "buildArticleSchema"
+  },
+  "python": {
+    "file": "article_schema.py",
+    "fn": "build_article_schema"
+  }
+}

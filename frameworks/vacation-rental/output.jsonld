@@ -1,0 +1,123 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VacationRental",
+  "additionalType": "Cottage",
+  "name": "Cedar Ridge Cottage",
+  "identifier": "VR-20418",
+  "url": "https://www.example.com/rentals/cedar-ridge-cottage",
+  "description": "Two-bedroom lakeside cottage with a wood stove, dock access and a screened porch.",
+  "brand": {
+    "@type": "Brand",
+    "name": "cedar-ridge-rentals"
+  },
+  "image": [
+    "https://www.example.com/img/cedar/exterior.jpg",
+    "https://www.example.com/img/cedar/living-room.jpg",
+    "https://www.example.com/img/cedar/kitchen.jpg",
+    "https://www.example.com/img/cedar/bedroom-1.jpg",
+    "https://www.example.com/img/cedar/bedroom-2.jpg",
+    "https://www.example.com/img/cedar/bathroom.jpg",
+    "https://www.example.com/img/cedar/porch.jpg",
+    "https://www.example.com/img/cedar/dock.jpg"
+  ],
+  "latitude": 44.53817,
+  "longitude": -72.81463,
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "18 Ridge Road",
+    "addressLocality": "Stowe",
+    "addressRegion": "VT",
+    "postalCode": "05672",
+    "addressCountry": "US"
+  },
+  "checkinTime": "16:00:00-04:00",
+  "checkoutTime": "10:00:00-04:00",
+  "knowsLanguage": [
+    "en-US",
+    "fr-CA"
+  ],
+  "containsPlace": {
+    "@type": "Accommodation",
+    "additionalType": "EntirePlace",
+    "occupancy": {
+      "@type": "QuantitativeValue",
+      "value": 5
+    },
+    "numberOfBedrooms": 2,
+    "numberOfBathroomsTotal": 1.5,
+    "numberOfRooms": 5,
+    "floorSize": {
+      "@type": "QuantitativeValue",
+      "value": 1150,
+      "unitCode": "FTK"
+    },
+    "bed": [
+      {
+        "@type": "BedDetails",
+        "numberOfBeds": 1,
+        "typeOfBed": "Queen"
+      },
+      {
+        "@type": "BedDetails",
+        "numberOfBeds": 2,
+        "typeOfBed": "Single"
+      }
+    ],
+    "amenityFeature": [
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "wifi",
+        "value": true
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "kitchen",
+        "value": true
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "fireplace",
+        "value": true
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "petsAllowed",
+        "value": false
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "parkingType",
+        "value": "Free"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "licenseNum",
+        "value": "Stowe: STR-2026-118"
+      }
+    ]
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.9,
+    "bestRating": 5,
+    "worstRating": 1,
+    "reviewCount": 86
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Priya Raman"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": 5,
+        "bestRating": 5,
+        "worstRating": 1
+      },
+      "datePublished": "2026-08-02",
+      "contentReferenceTime": "2026-07-24"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Occupation",
+  "name": "Registered Nurse",
+  "description": "Registered nurse pay in Boston, MA, based on 1,240 salary reports submitted between January and September 2026.",
+  "url": "https://www.example.com/salaries/registered-nurse/boston-ma",
+  "occupationalCategory": "29-1141.00",
+  "occupationLocation": [
+    {
+      "@type": "City",
+      "name": "Boston, MA"
+    }
+  ],
+  "estimatedSalary": [
+    {
+      "@type": "MonetaryAmountDistribution",
+      "name": "base",
+      "currency": "USD",
+      "duration": "P1Y",
+      "percentile10": 78000,
+      "percentile25": 89500,
+      "median": 101200,
+      "percentile75": 114800,
+      "percentile90": 128300
+    },
+    {
+      "@type": "MonetaryAmountDistribution",
+      "name": "base",
+      "currency": "USD",
+      "duration": "PT1H",
+      "percentile10": 37.5,
+      "percentile25": 43,
+      "median": 48.65,
+      "percentile75": 55.2,
+      "percentile90": 61.7
+    }
+  ],
+  "skills": "Patient assessment, medication administration, electronic health records"
+}

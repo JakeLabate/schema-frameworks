@@ -1,0 +1,12 @@
+{
+  "url": "https://www.example.com/",
+  "canonicalUrl": "https://www.example.com/",
+  "indexable": true,
+  "siteName": "Example Outfitters",
+  "alternateNames": [
+    "EO",
+    "Example Outfitters Store"
+  ],
+  "hasSiteSearch": true,
+  "searchUrlTemplate": "https://www.example.com/search?q={search_term_string}"
+}

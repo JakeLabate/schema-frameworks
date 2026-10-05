@@ -1,0 +1,173 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ItemPage",
+      "@id": "https://www.example.com/jackets/ridgeline-rain-shell/#webpage",
+      "url": "https://www.example.com/jackets/ridgeline-rain-shell/",
+      "name": "Ridgeline Rain Shell | Harbor & Pine",
+      "isPartOf": {
+        "@id": "https://www.example.com/#website"
+      },
+      "breadcrumb": {
+        "@id": "https://www.example.com/jackets/ridgeline-rain-shell/#breadcrumb"
+      },
+      "mainEntity": {
+        "@id": "https://www.example.com/jackets/ridgeline-rain-shell/#product-group"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.example.com/jackets/ridgeline-rain-shell/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.example.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Jackets",
+          "item": "https://www.example.com/jackets/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Ridgeline Rain Shell",
+          "item": "https://www.example.com/jackets/ridgeline-rain-shell/"
+        }
+      ]
+    },
+    {
+      "@type": "ProductGroup",
+      "@id": "https://www.example.com/jackets/ridgeline-rain-shell/#product-group",
+      "name": "Ridgeline Rain Shell",
+      "description": "A packable three-layer rain jacket with taped seams, pit zips and an adjustable hood.",
+      "url": "https://www.example.com/jackets/ridgeline-rain-shell/",
+      "brand": {
+        "@type": "Brand",
+        "name": "Harbor & Pine"
+      },
+      "productGroupID": "RRS-24",
+      "variesBy": [
+        "https://schema.org/color",
+        "https://schema.org/size"
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.6,
+        "reviewCount": 128,
+        "bestRating": 5,
+        "worstRating": 1
+      },
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "@id": "https://www.example.com/jackets/ridgeline-rain-shell/#sku-RRS-24-SPR-M",
+          "sku": "RRS-24-SPR-M",
+          "gtin": "00812345000017",
+          "name": "Ridgeline Rain Shell, Spruce, M",
+          "image": [
+            "https://www.example.com/img/ridgeline-spruce.jpg"
+          ],
+          "color": "Spruce",
+          "size": "M",
+          "url": "https://www.example.com/jackets/ridgeline-rain-shell/?color=spruce&size=m",
+          "inProductGroupWithID": "RRS-24",
+          "isVariantOf": {
+            "@id": "https://www.example.com/jackets/ridgeline-rain-shell/#product-group"
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://www.example.com/jackets/ridgeline-rain-shell/?color=spruce&size=m",
+            "price": 189,
+            "priceCurrency": "USD",
+            "priceSpecification": [
+              {
+                "@type": "UnitPriceSpecification",
+                "price": 169,
+                "priceCurrency": "USD",
+                "validForMemberTier": {
+                  "@id": "https://www.example.com/#tier-member"
+                }
+              }
+            ],
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "seller": {
+              "@id": "https://www.example.com/#organization"
+            }
+          }
+        },
+        {
+          "@type": "Product",
+          "@id": "https://www.example.com/jackets/ridgeline-rain-shell/#sku-RRS-24-SPR-L",
+          "sku": "RRS-24-SPR-L",
+          "gtin": "00812345000024",
+          "name": "Ridgeline Rain Shell, Spruce, L",
+          "image": [
+            "https://www.example.com/img/ridgeline-spruce.jpg"
+          ],
+          "color": "Spruce",
+          "size": "L",
+          "url": "https://www.example.com/jackets/ridgeline-rain-shell/?color=spruce&size=l",
+          "inProductGroupWithID": "RRS-24",
+          "isVariantOf": {
+            "@id": "https://www.example.com/jackets/ridgeline-rain-shell/#product-group"
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://www.example.com/jackets/ridgeline-rain-shell/?color=spruce&size=l",
+            "price": 189,
+            "priceCurrency": "USD",
+            "priceSpecification": [
+              {
+                "@type": "UnitPriceSpecification",
+                "price": 169,
+                "priceCurrency": "USD",
+                "validForMemberTier": {
+                  "@id": "https://www.example.com/#tier-member"
+                }
+              }
+            ],
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "seller": {
+              "@id": "https://www.example.com/#organization"
+            }
+          }
+        },
+        {
+          "@type": "Product",
+          "@id": "https://www.example.com/jackets/ridgeline-rain-shell/#sku-RRS-24-RST-M",
+          "sku": "RRS-24-RST-M",
+          "gtin": "00812345000031",
+          "name": "Ridgeline Rain Shell, Rust, M",
+          "image": [
+            "https://www.example.com/img/ridgeline-rust.jpg"
+          ],
+          "color": "Rust",
+          "size": "M",
+          "url": "https://www.example.com/jackets/ridgeline-rain-shell/?color=rust&size=m",
+          "inProductGroupWithID": "RRS-24",
+          "isVariantOf": {
+            "@id": "https://www.example.com/jackets/ridgeline-rain-shell/#product-group"
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://www.example.com/jackets/ridgeline-rain-shell/?color=rust&size=m",
+            "price": 189,
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/OutOfStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "seller": {
+              "@id": "https://www.example.com/#organization"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

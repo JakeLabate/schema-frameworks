@@ -1,0 +1,12 @@
+{
+  "title": "Carousel",
+  "page": "https://www.jakelabate.com/schema-frameworks/carousel/",
+  "js": {
+    "file": "carousel-schema.js",
+    "fn": "buildCarouselSchema"
+  },
+  "python": {
+    "file": "carousel_schema.py",
+    "fn": "build_carousel_schema"
+  }
+}

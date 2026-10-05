@@ -1,0 +1,12 @@
+{
+  "title": "Dataset",
+  "page": "https://www.jakelabate.com/schema-frameworks/dataset/",
+  "js": {
+    "file": "dataset-schema.js",
+    "fn": "buildDatasetSchema"
+  },
+  "python": {
+    "file": "dataset_schema.py",
+    "fn": "build_dataset_schema"
+  }
+}

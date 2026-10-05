@@ -1,0 +1,12 @@
+{
+  "title": "How-To",
+  "page": "https://www.jakelabate.com/schema-frameworks/how-to/",
+  "js": {
+    "file": "how-to-schema.js",
+    "fn": "buildHowToSchema"
+  },
+  "python": {
+    "file": "how_to_schema.py",
+    "fn": "build_how_to_schema"
+  }
+}

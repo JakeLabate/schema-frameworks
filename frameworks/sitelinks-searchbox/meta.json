@@ -1,0 +1,12 @@
+{
+  "title": "Sitelinks Search Box",
+  "page": "https://www.jakelabate.com/schema-frameworks/sitelinks-searchbox/",
+  "js": {
+    "file": "sitelinks-searchbox-schema.js",
+    "fn": "buildWebSiteSchema"
+  },
+  "python": {
+    "file": "sitelinks_searchbox_schema.py",
+    "fn": "build_website_schema"
+  }
+}

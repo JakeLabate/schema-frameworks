@@ -1,0 +1,74 @@
+{
+  "site": {
+    "url": "https://www.example.com"
+  },
+  "page": {
+    "url": "https://www.example.com/community/threads/ridgeline-shell-winter-layering/",
+    "title": "Is the Ridgeline shell warm enough for winter hiking? | Trailhead Community",
+    "breadcrumbs": [
+      {
+        "name": "Home",
+        "url": "https://www.example.com/"
+      },
+      {
+        "name": "Community",
+        "url": "https://www.example.com/community/"
+      },
+      {
+        "name": "Gear questions",
+        "url": "https://www.example.com/community/gear-questions/"
+      },
+      {
+        "name": "Is the Ridgeline shell warm enough for winter hiking?",
+        "url": "https://www.example.com/community/threads/ridgeline-shell-winter-layering/"
+      }
+    ]
+  },
+  "thread": {
+    "kind": "question",
+    "title": "Is the Ridgeline shell warm enough for winter hiking?",
+    "aboutUrl": "https://www.example.com/jackets/ridgeline-rain-shell/#product-group",
+    "opening": {
+      "id": "5101",
+      "text": "Planning day hikes in the White Mountains in January. Is the Ridgeline shell enough on its own, or what should I layer under it?",
+      "author": {
+        "name": "jkrause",
+        "profileUrl": "https://www.example.com/community/members/jkrause/"
+      },
+      "date": "2026-09-30T19:12:00-04:00",
+      "upvotes": 14
+    },
+    "replies": [
+      {
+        "id": "5102",
+        "text": "On its own, no. It is a shell, so it blocks wind and rain but has no insulation. I wear a merino base layer and a light fleece under it and stay warm down to about 10F while moving.",
+        "author": {
+          "name": "Maya Okafor",
+          "profileUrl": "https://www.example.com/community/members/maya-okafor/"
+        },
+        "date": "2026-09-30T20:05:00-04:00",
+        "upvotes": 31,
+        "accepted": true
+      },
+      {
+        "id": "5103",
+        "text": "Add a puffy for breaks. You cool down fast the moment you stop, and the shell traps the warmth well over a down layer.",
+        "author": {
+          "name": "trailmix",
+          "profileUrl": "https://www.example.com/community/members/trailmix/"
+        },
+        "date": "2026-10-01T07:40:00-04:00",
+        "upvotes": 9
+      },
+      {
+        "id": "5104",
+        "text": "[removed by moderator]",
+        "removed": true,
+        "author": {
+          "name": "spam99"
+        },
+        "date": "2026-10-01T08:00:00-04:00"
+      }
+    ]
+  }
+}

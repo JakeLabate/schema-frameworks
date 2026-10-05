@@ -1,0 +1,10 @@
+{
+  "title": "Product Page",
+  "page": "https://www.jakelabate.com/schema-frameworks/page-types/product/",
+  "js": {
+    "file": "product-page-schema.js",
+    "fn": "buildProductPageSchema"
+  },
+  "python": null,
+  "linksTo": "homepage"
+}

@@ -1,0 +1,59 @@
+{
+  "@context": "https://schema.org",
+  "@type": "OnlineStore",
+  "@id": "https://www.example.com/#organization",
+  "name": "Trailhead Outfitters",
+  "url": "https://www.example.com/",
+  "hasMerchantReturnPolicy": [
+    {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": [
+        "US",
+        "CA"
+      ],
+      "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+      "merchantReturnLink": "https://www.example.com/policies/returns",
+      "merchantReturnDays": 30,
+      "returnPolicyCountry": [
+        "US"
+      ],
+      "returnMethod": [
+        "https://schema.org/ReturnByMail",
+        "https://schema.org/ReturnInStore"
+      ],
+      "returnFees": "https://schema.org/ReturnShippingFees",
+      "returnShippingFeesAmount": {
+        "@type": "MonetaryAmount",
+        "value": 6.95,
+        "currency": "USD"
+      },
+      "returnLabelSource": "https://schema.org/ReturnLabelDownloadAndPrint",
+      "refundType": [
+        "https://schema.org/FullRefund",
+        "https://schema.org/StoreCreditRefund"
+      ],
+      "itemCondition": [
+        "https://schema.org/NewCondition"
+      ],
+      "restockingFee": 0,
+      "customerRemorseReturnFees": "https://schema.org/ReturnShippingFees",
+      "customerRemorseReturnShippingFeesAmount": {
+        "@type": "MonetaryAmount",
+        "value": 6.95,
+        "currency": "USD"
+      },
+      "customerRemorseReturnLabelSource": "https://schema.org/ReturnLabelDownloadAndPrint",
+      "itemDefectReturnFees": "https://schema.org/FreeReturn",
+      "itemDefectReturnLabelSource": "https://schema.org/ReturnLabelInBox",
+      "returnPolicySeasonalOverride": [
+        {
+          "@type": "MerchantReturnPolicySeasonalOverride",
+          "startDate": "2026-11-20",
+          "endDate": "2026-12-31",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 60
+        }
+      ]
+    }
+  ]
+}

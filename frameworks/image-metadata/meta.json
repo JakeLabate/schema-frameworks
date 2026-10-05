@@ -1,0 +1,12 @@
+{
+  "title": "Image Metadata",
+  "page": "https://www.jakelabate.com/schema-frameworks/image-metadata/",
+  "js": {
+    "file": "image-metadata-schema.js",
+    "fn": "buildImageObjectSchema"
+  },
+  "python": {
+    "file": "image_metadata_schema.py",
+    "fn": "build_image_object_schema"
+  }
+}

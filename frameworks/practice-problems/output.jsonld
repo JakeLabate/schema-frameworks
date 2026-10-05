@@ -1,0 +1,41 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Quiz",
+  "name": "Linear equations practice set",
+  "about": {
+    "@type": "Thing",
+    "name": "Solving linear equations"
+  },
+  "educationalAlignment": [
+    {
+      "@type": "AlignmentObject",
+      "alignmentType": "educationalSubject",
+      "targetName": "Algebra"
+    },
+    {
+      "@type": "AlignmentObject",
+      "alignmentType": "educationalLevel",
+      "targetName": "Grade 8"
+    }
+  ],
+  "hasPart": [
+    {
+      "@type": "Question",
+      "eduQuestionType": "Flashcard",
+      "text": "Solve for x: 3x + 5 = 20",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "x = 5"
+      }
+    },
+    {
+      "@type": "Question",
+      "eduQuestionType": "Flashcard",
+      "text": "Solve for y: 2y - 7 = 9",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "y = 8"
+      }
+    }
+  ]
+}

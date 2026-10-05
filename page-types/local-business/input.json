@@ -1,0 +1,69 @@
+{
+  "site": {
+    "url": "https://www.example.com"
+  },
+  "page": {
+    "url": "https://www.example.com/stores/portland/",
+    "title": "Harbor & Pine Portland | Outdoor store on Commercial Street",
+    "breadcrumbs": [
+      {
+        "name": "Home",
+        "url": "https://www.example.com/"
+      },
+      {
+        "name": "Stores",
+        "url": "https://www.example.com/stores/"
+      },
+      {
+        "name": "Portland",
+        "url": "https://www.example.com/stores/portland/"
+      }
+    ]
+  },
+  "location": {
+    "type": "SportingGoodsStore",
+    "name": "Harbor & Pine Portland",
+    "images": [
+      "https://www.example.com/img/stores/portland-1x1.jpg",
+      "https://www.example.com/img/stores/portland-4x3.jpg",
+      "https://www.example.com/img/stores/portland-16x9.jpg"
+    ],
+    "telephone": "+1-207-555-0161",
+    "priceRange": "$$",
+    "address": {
+      "street": "214 Commercial Street",
+      "city": "Portland",
+      "region": "ME",
+      "postalCode": "04101",
+      "country": "US"
+    },
+    "lat": 43.656912,
+    "lng": -70.252518,
+    "hours": {
+      "Monday": {
+        "opens": "10:00",
+        "closes": "18:00"
+      },
+      "Tuesday": {
+        "opens": "10:00",
+        "closes": "18:00"
+      },
+      "Wednesday": {
+        "opens": "10:00",
+        "closes": "18:00"
+      },
+      "Thursday": {
+        "opens": "10:00",
+        "closes": "20:00"
+      },
+      "Friday": {
+        "opens": "10:00",
+        "closes": "20:00"
+      },
+      "Saturday": {
+        "opens": "09:00",
+        "closes": "20:00"
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "isIndexable": true,
+  "isContentVisible": true,
+  "url": "https://www.example.com/blog/crawl-budget-audit",
+  "canonicalUrl": "https://www.example.com/blog/crawl-budget-audit",
+  "template": "blog",
+  "headline": "How to Run a Crawl Budget Audit",
+  "datePublished": "2026-09-14T08:00:00-04:00",
+  "dateModified": "2026-10-02T16:30:00-04:00",
+  "publisherName": "Example Media",
+  "authors": [
+    {
+      "name": "By Dana Reyes",
+      "url": "https://www.example.com/authors/dana-reyes"
+    },
+    {
+      "name": "Dr. Sam Okafor",
+      "url": "https://www.example.com/authors/sam-okafor"
+    }
+  ],
+  "images": [
+    {
+      "url": "https://www.example.com/img/crawl-audit-16x9.jpg",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "url": "https://www.example.com/img/crawl-audit-4x3.jpg",
+      "width": 1200,
+      "height": 900
+    },
+    {
+      "url": "https://www.example.com/img/crawl-audit-1x1.jpg",
+      "width": 1000,
+      "height": 1000
+    }
+  ]
+}

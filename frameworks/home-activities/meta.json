@@ -1,0 +1,12 @@
+{
+  "title": "Home Activities",
+  "page": "https://www.jakelabate.com/schema-frameworks/home-activities/",
+  "js": {
+    "file": "home-activities-schema.js",
+    "fn": "buildHomeActivitySchema"
+  },
+  "python": {
+    "file": "home_activities_schema.py",
+    "fn": "build_home_activity_schema"
+  }
+}

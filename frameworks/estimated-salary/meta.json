@@ -1,0 +1,12 @@
+{
+  "title": "Estimated Salary",
+  "page": "https://www.jakelabate.com/schema-frameworks/estimated-salary/",
+  "js": {
+    "file": "estimated-salary-schema.js",
+    "fn": "buildOccupationSchema"
+  },
+  "python": {
+    "file": "estimated_salary_schema.py",
+    "fn": "build_occupation_schema"
+  }
+}

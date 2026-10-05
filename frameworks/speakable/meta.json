@@ -1,0 +1,12 @@
+{
+  "title": "Speakable",
+  "page": "https://www.jakelabate.com/schema-frameworks/speakable/",
+  "js": {
+    "file": "speakable-schema.js",
+    "fn": "buildSpeakableSchema"
+  },
+  "python": {
+    "file": "speakable_schema.py",
+    "fn": "build_speakable_schema"
+  }
+}

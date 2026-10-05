@@ -1,0 +1,12 @@
+{
+  "title": "Vacation Rental",
+  "page": "https://www.jakelabate.com/schema-frameworks/vacation-rental/",
+  "js": {
+    "file": "vacation-rental-schema.js",
+    "fn": "buildVacationRentalSchema"
+  },
+  "python": {
+    "file": "vacation_rental_schema.py",
+    "fn": "build_vacation_rental_schema"
+  }
+}

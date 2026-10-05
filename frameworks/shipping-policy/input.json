@@ -1,0 +1,167 @@
+{
+  "url": "https://www.example.com/policies/shipping",
+  "canonicalUrl": "https://www.example.com/policies/shipping",
+  "indexable": true,
+  "contentVisible": true,
+  "pageRole": "shipping_policy",
+  "organization": {
+    "kind": "online_store",
+    "name": "Trailhead Outfitters",
+    "url": "https://www.example.com/"
+  },
+  "services": [
+    {
+      "id": "https://www.example.com/policies/shipping#standard",
+      "name": "Standard shipping",
+      "description": "Ships from Massachusetts in 1 to 2 business days; free on US orders of $75 or more.",
+      "handling": {
+        "days": [
+          1,
+          2
+        ],
+        "businessDays": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri"
+        ],
+        "cutoffTime": "14:00:00-05:00"
+      },
+      "conditions": [
+        {
+          "destinations": [
+            {
+              "country": "US"
+            }
+          ],
+          "origin": {
+            "country": "US",
+            "regions": [
+              "MA"
+            ]
+          },
+          "currency": "USD",
+          "orderValue": {
+            "min": 0,
+            "max": 74.99
+          },
+          "rate": {
+            "value": 7.95
+          },
+          "transit": {
+            "days": [
+              3,
+              5
+            ],
+            "businessDays": [
+              "mon",
+              "tue",
+              "wed",
+              "thu",
+              "fri"
+            ]
+          }
+        },
+        {
+          "destinations": [
+            {
+              "country": "US"
+            }
+          ],
+          "origin": {
+            "country": "US",
+            "regions": [
+              "MA"
+            ]
+          },
+          "currency": "USD",
+          "orderValue": {
+            "min": 75
+          },
+          "rate": {
+            "value": 0
+          },
+          "transit": {
+            "days": [
+              3,
+              5
+            ],
+            "businessDays": [
+              "mon",
+              "tue",
+              "wed",
+              "thu",
+              "fri"
+            ]
+          }
+        },
+        {
+          "destinations": [
+            {
+              "country": "AU"
+            }
+          ],
+          "currency": "AUD",
+          "weight": {
+            "min": 0,
+            "max": 10,
+            "unit": "kg"
+          },
+          "rate": {
+            "maxValue": 49.95
+          },
+          "transit": {
+            "days": [
+              6,
+              10
+            ],
+            "businessDays": [
+              "mon",
+              "tue",
+              "wed",
+              "thu",
+              "fri"
+            ]
+          }
+        },
+        {
+          "destinations": [
+            {
+              "country": "CA"
+            }
+          ],
+          "currency": "CAD",
+          "rate": {
+            "orderPercentage": 0.1
+          },
+          "seasonal": {
+            "from": "2026-11-15",
+            "through": "2026-12-24"
+          },
+          "transit": {
+            "days": [
+              4,
+              8
+            ],
+            "businessDays": [
+              "mon",
+              "tue",
+              "wed",
+              "thu",
+              "fri"
+            ]
+          }
+        },
+        {
+          "destinations": [
+            {
+              "country": "GB"
+            }
+          ],
+          "doesNotShip": true
+        }
+      ]
+    }
+  ]
+}

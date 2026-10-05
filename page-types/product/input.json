@@ -1,0 +1,104 @@
+{
+  "site": {
+    "url": "https://www.example.com"
+  },
+  "page": {
+    "url": "https://www.example.com/jackets/ridgeline-rain-shell/",
+    "title": "Ridgeline Rain Shell | Harbor & Pine",
+    "breadcrumbs": [
+      {
+        "name": "Home",
+        "url": "https://www.example.com/"
+      },
+      {
+        "name": "Jackets",
+        "url": "https://www.example.com/jackets/"
+      },
+      {
+        "name": "Ridgeline Rain Shell",
+        "url": "https://www.example.com/jackets/ridgeline-rain-shell/"
+      }
+    ]
+  },
+  "product": {
+    "groupId": "RRS-24",
+    "name": "Ridgeline Rain Shell",
+    "description": "A packable three-layer rain jacket with taped seams, pit zips and an adjustable hood.",
+    "brand": "Harbor & Pine",
+    "currency": "USD",
+    "variesBy": [
+      "color",
+      "size"
+    ],
+    "images": [
+      "https://www.example.com/img/ridgeline-shell-1x1.jpg",
+      "https://www.example.com/img/ridgeline-shell-4x3.jpg",
+      "https://www.example.com/img/ridgeline-shell-16x9.jpg"
+    ],
+    "rating": {
+      "value": 4.6,
+      "count": 128
+    },
+    "variants": [
+      {
+        "sku": "RRS-24-SPR-M",
+        "gtin": "00812345000017",
+        "color": "Spruce",
+        "size": "M",
+        "price": 189,
+        "availability": "in_stock",
+        "images": [
+          "https://www.example.com/img/ridgeline-spruce.jpg"
+        ],
+        "memberPrices": [
+          {
+            "tier": "member",
+            "price": 169
+          }
+        ]
+      },
+      {
+        "sku": "RRS-24-SPR-L",
+        "gtin": "00812345000024",
+        "color": "Spruce",
+        "size": "L",
+        "price": 189,
+        "availability": "in_stock",
+        "images": [
+          "https://www.example.com/img/ridgeline-spruce.jpg"
+        ],
+        "memberPrices": [
+          {
+            "tier": "member",
+            "price": 169
+          }
+        ]
+      },
+      {
+        "sku": "RRS-24-RST-M",
+        "gtin": "00812345000031",
+        "color": "Rust",
+        "size": "M",
+        "price": 189,
+        "availability": "out_of_stock",
+        "images": [
+          "https://www.example.com/img/ridgeline-rust.jpg"
+        ]
+      },
+      {
+        "sku": "RRS-24-RST-M",
+        "color": "Rust",
+        "size": "M",
+        "price": 189,
+        "note": "duplicate row from the feed, dropped"
+      },
+      {
+        "sku": "RRS-24-RST-XL",
+        "color": "Rust",
+        "size": "XL",
+        "price": 0,
+        "note": "no price yet, dropped"
+      }
+    ]
+  }
+}

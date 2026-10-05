@@ -1,0 +1,12 @@
+{
+  "title": "Vehicle Listing",
+  "page": "https://www.jakelabate.com/schema-frameworks/vehicle-listing/",
+  "js": {
+    "file": "vehicle-listing-schema.js",
+    "fn": "buildVehicleSchema"
+  },
+  "python": {
+    "file": "vehicle_listing_schema.py",
+    "fn": "build_vehicle_schema"
+  }
+}

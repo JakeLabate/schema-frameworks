@@ -1,0 +1,12 @@
+{
+  "title": "Course",
+  "page": "https://www.jakelabate.com/schema-frameworks/course/",
+  "js": {
+    "file": "course-schema.js",
+    "fn": "buildCourseSchema"
+  },
+  "python": {
+    "file": "course_schema.py",
+    "fn": "build_course_schema"
+  }
+}

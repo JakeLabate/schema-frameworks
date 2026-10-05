@@ -1,0 +1,200 @@
+{
+  "@context": "https://schema.org",
+  "@type": "OnlineStore",
+  "@id": "https://www.example.com/#organization",
+  "name": "Trailhead Outfitters",
+  "url": "https://www.example.com/",
+  "hasShippingService": [
+    {
+      "@type": "ShippingService",
+      "@id": "https://www.example.com/policies/shipping#standard",
+      "name": "Standard shipping",
+      "description": "Ships from Massachusetts in 1 to 2 business days; free on US orders of $75 or more.",
+      "fulfillmentType": "https://schema.org/FulfillmentTypeDelivery",
+      "handlingTime": {
+        "@type": "ServicePeriod",
+        "duration": {
+          "@type": "QuantitativeValue",
+          "minValue": 1,
+          "maxValue": 2,
+          "unitCode": "DAY"
+        },
+        "businessDays": [
+          "https://schema.org/Monday",
+          "https://schema.org/Tuesday",
+          "https://schema.org/Wednesday",
+          "https://schema.org/Thursday",
+          "https://schema.org/Friday"
+        ],
+        "cutoffTime": "14:00:00-05:00"
+      },
+      "shippingConditions": [
+        {
+          "@type": "ShippingConditions",
+          "shippingDestination": [
+            {
+              "@type": "DefinedRegion",
+              "addressCountry": "US"
+            }
+          ],
+          "shippingOrigin": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US",
+            "addressRegion": [
+              "MA"
+            ]
+          },
+          "orderValue": {
+            "@type": "MonetaryAmount",
+            "currency": "USD",
+            "minValue": 0,
+            "maxValue": 74.99
+          },
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "currency": "USD",
+            "value": 7.95
+          },
+          "transitTime": {
+            "@type": "ServicePeriod",
+            "duration": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 5,
+              "unitCode": "DAY"
+            },
+            "businessDays": [
+              "https://schema.org/Monday",
+              "https://schema.org/Tuesday",
+              "https://schema.org/Wednesday",
+              "https://schema.org/Thursday",
+              "https://schema.org/Friday"
+            ]
+          }
+        },
+        {
+          "@type": "ShippingConditions",
+          "shippingDestination": [
+            {
+              "@type": "DefinedRegion",
+              "addressCountry": "US"
+            }
+          ],
+          "shippingOrigin": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US",
+            "addressRegion": [
+              "MA"
+            ]
+          },
+          "orderValue": {
+            "@type": "MonetaryAmount",
+            "currency": "USD",
+            "minValue": 75
+          },
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "currency": "USD",
+            "value": 0
+          },
+          "transitTime": {
+            "@type": "ServicePeriod",
+            "duration": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 5,
+              "unitCode": "DAY"
+            },
+            "businessDays": [
+              "https://schema.org/Monday",
+              "https://schema.org/Tuesday",
+              "https://schema.org/Wednesday",
+              "https://schema.org/Thursday",
+              "https://schema.org/Friday"
+            ]
+          }
+        },
+        {
+          "@type": "ShippingConditions",
+          "shippingDestination": [
+            {
+              "@type": "DefinedRegion",
+              "addressCountry": "AU"
+            }
+          ],
+          "weight": {
+            "@type": "QuantitativeValue",
+            "minValue": 0,
+            "maxValue": 10,
+            "unitCode": "KGM"
+          },
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "currency": "AUD",
+            "maxValue": 49.95
+          },
+          "transitTime": {
+            "@type": "ServicePeriod",
+            "duration": {
+              "@type": "QuantitativeValue",
+              "minValue": 6,
+              "maxValue": 10,
+              "unitCode": "DAY"
+            },
+            "businessDays": [
+              "https://schema.org/Monday",
+              "https://schema.org/Tuesday",
+              "https://schema.org/Wednesday",
+              "https://schema.org/Thursday",
+              "https://schema.org/Friday"
+            ]
+          }
+        },
+        {
+          "@type": "ShippingConditions",
+          "shippingDestination": [
+            {
+              "@type": "DefinedRegion",
+              "addressCountry": "CA"
+            }
+          ],
+          "seasonalOverride": {
+            "@type": "OpeningHoursSpecification",
+            "validFrom": "2026-11-15",
+            "validThrough": "2026-12-24"
+          },
+          "shippingRate": {
+            "@type": "ShippingRateSettings",
+            "orderPercentage": 0.1
+          },
+          "transitTime": {
+            "@type": "ServicePeriod",
+            "duration": {
+              "@type": "QuantitativeValue",
+              "minValue": 4,
+              "maxValue": 8,
+              "unitCode": "DAY"
+            },
+            "businessDays": [
+              "https://schema.org/Monday",
+              "https://schema.org/Tuesday",
+              "https://schema.org/Wednesday",
+              "https://schema.org/Thursday",
+              "https://schema.org/Friday"
+            ]
+          }
+        },
+        {
+          "@type": "ShippingConditions",
+          "shippingDestination": [
+            {
+              "@type": "DefinedRegion",
+              "addressCountry": "GB"
+            }
+          ],
+          "doesNotShip": true
+        }
+      ]
+    }
+  ]
+}

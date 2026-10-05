@@ -1,0 +1,23 @@
+{
+  "page": {
+    "url": "https://www.example.com/photos/harbor-fog-at-dawn",
+    "canonicalUrl": "https://www.example.com/photos/harbor-fog-at-dawn",
+    "noindex": false,
+    "contentVisible": true
+  },
+  "image": {
+    "visibleOnPage": true,
+    "contentUrl": "https://www.example.com/photos/full/harbor-fog-at-dawn.jpg",
+    "licenseUrl": "https://www.example.com/license/standard",
+    "acquireLicenseUrl": "https://www.example.com/photos/harbor-fog-at-dawn/license",
+    "creditText": "Rachel Kim / Example Photo Agency",
+    "copyrightNotice": "© 2026 Example Photo Agency",
+    "creators": [
+      {
+        "type": "Person",
+        "name": "Rachel Kim",
+        "url": "https://www.example.com/photographers/rachel-kim"
+      }
+    ]
+  }
+}

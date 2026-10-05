@@ -1,0 +1,12 @@
+{
+  "title": "Return Policy",
+  "page": "https://www.jakelabate.com/schema-frameworks/return-policy/",
+  "js": {
+    "file": "return-policy-schema.js",
+    "fn": "buildReturnPolicySchema"
+  },
+  "python": {
+    "file": "return_policy_schema.py",
+    "fn": "build_return_policy_schema"
+  }
+}

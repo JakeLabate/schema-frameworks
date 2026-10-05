@@ -1,0 +1,92 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "QAPage",
+      "@id": "https://www.example.com/community/threads/ridgeline-shell-winter-layering/#webpage",
+      "url": "https://www.example.com/community/threads/ridgeline-shell-winter-layering/",
+      "name": "Is the Ridgeline shell warm enough for winter hiking? | Trailhead Community",
+      "isPartOf": {
+        "@id": "https://www.example.com/#website"
+      },
+      "mainEntity": {
+        "@type": "Question",
+        "name": "Is the Ridgeline shell warm enough for winter hiking?",
+        "text": "Planning day hikes in the White Mountains in January. Is the Ridgeline shell enough on its own, or what should I layer under it?",
+        "author": {
+          "@type": "Person",
+          "@id": "https://www.example.com/community/members/jkrause/#person",
+          "name": "jkrause",
+          "url": "https://www.example.com/community/members/jkrause/"
+        },
+        "datePublished": "2026-09-30T19:12:00-04:00",
+        "answerCount": 2,
+        "upvoteCount": 14,
+        "about": {
+          "@id": "https://www.example.com/jackets/ridgeline-rain-shell/#product-group"
+        },
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "On its own, no. It is a shell, so it blocks wind and rain but has no insulation. I wear a merino base layer and a light fleece under it and stay warm down to about 10F while moving.",
+          "author": {
+            "@type": "Person",
+            "@id": "https://www.example.com/community/members/maya-okafor/#person",
+            "name": "Maya Okafor",
+            "url": "https://www.example.com/community/members/maya-okafor/"
+          },
+          "datePublished": "2026-09-30T20:05:00-04:00",
+          "upvoteCount": 31,
+          "url": "https://www.example.com/community/threads/ridgeline-shell-winter-layering/#post-5102"
+        },
+        "suggestedAnswer": [
+          {
+            "@type": "Answer",
+            "text": "Add a puffy for breaks. You cool down fast the moment you stop, and the shell traps the warmth well over a down layer.",
+            "author": {
+              "@type": "Person",
+              "@id": "https://www.example.com/community/members/trailmix/#person",
+              "name": "trailmix",
+              "url": "https://www.example.com/community/members/trailmix/"
+            },
+            "datePublished": "2026-10-01T07:40:00-04:00",
+            "upvoteCount": 9,
+            "url": "https://www.example.com/community/threads/ridgeline-shell-winter-layering/#post-5103"
+          }
+        ]
+      },
+      "breadcrumb": {
+        "@id": "https://www.example.com/community/threads/ridgeline-shell-winter-layering/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.example.com/community/threads/ridgeline-shell-winter-layering/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.example.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Community",
+          "item": "https://www.example.com/community/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Gear questions",
+          "item": "https://www.example.com/community/gear-questions/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Is the Ridgeline shell warm enough for winter hiking?",
+          "item": "https://www.example.com/community/threads/ridgeline-shell-winter-layering/"
+        }
+      ]
+    }
+  ]
+}

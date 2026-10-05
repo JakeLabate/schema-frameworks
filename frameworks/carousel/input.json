@@ -1,0 +1,54 @@
+{
+  "isIndexable": true,
+  "isContentVisible": true,
+  "url": "https://www.example.com/collections/weeknight-pasta",
+  "canonicalUrl": "https://www.example.com/collections/weeknight-pasta",
+  "itemType": "Recipe",
+  "items": [
+    {
+      "anchor": "cacio-e-pepe",
+      "properties": {
+        "name": "Cacio e Pepe",
+        "image": [
+          "https://www.example.com/img/cacio-e-pepe-16x9.jpg"
+        ],
+        "author": {
+          "@type": "Person",
+          "name": "Lena Russo"
+        },
+        "datePublished": "2026-03-02",
+        "totalTime": "PT25M"
+      }
+    },
+    {
+      "anchor": "pasta-al-limone",
+      "properties": {
+        "name": "Pasta al Limone",
+        "image": [
+          "https://www.example.com/img/pasta-al-limone-16x9.jpg"
+        ],
+        "author": {
+          "@type": "Person",
+          "name": "Lena Russo"
+        },
+        "datePublished": "2026-04-18",
+        "totalTime": "PT20M"
+      }
+    },
+    {
+      "anchor": "pasta-e-ceci",
+      "properties": {
+        "name": "Pasta e Ceci",
+        "image": [
+          "https://www.example.com/img/pasta-e-ceci-16x9.jpg"
+        ],
+        "author": {
+          "@type": "Person",
+          "name": "Marco Bianchi"
+        },
+        "datePublished": "2026-05-09",
+        "totalTime": "PT35M"
+      }
+    }
+  ]
+}

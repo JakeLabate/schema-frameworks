@@ -1,0 +1,86 @@
+{
+  "url": "https://www.example.com/forum/q/1042",
+  "canonicalUrl": "https://www.example.com/forum/q/1042",
+  "indexable": true,
+  "usersCanSubmitAnswers": true,
+  "question": {
+    "title": "How many teaspoons are in a cup?",
+    "body": "I am converting a recipe from metric. How many teaspoons are in one US cup?",
+    "answerCount": 2,
+    "votes": 26,
+    "author": {
+      "name": "Riya Shah",
+      "url": "https://www.example.com/users/riya-shah"
+    },
+    "datePublished": "2026-03-02T09:14:00-05:00",
+    "dateModified": "2026-03-02T09:20:00-05:00",
+    "images": [
+      "https://www.example.com/forum/q/1042/measuring-cups.jpg"
+    ],
+    "commentCount": 1,
+    "comments": [
+      {
+        "text": "Do you mean a US cup or a metric cup?",
+        "author": {
+          "name": "Tom Ellis",
+          "url": "https://www.example.com/users/tom-ellis"
+        },
+        "datePublished": "2026-03-02T09:31:00-05:00",
+        "dateModified": "2026-03-02T09:31:00-05:00"
+      }
+    ],
+    "answers": [
+      {
+        "accepted": true,
+        "text": "There are 48 teaspoons in one US cup: 16 tablespoons times 3 teaspoons each.",
+        "votes": 41,
+        "url": "https://www.example.com/forum/q/1042#answer-1",
+        "author": {
+          "name": "Dana Kim",
+          "url": "https://www.example.com/users/dana-kim"
+        },
+        "datePublished": "2026-03-02T10:05:00-05:00",
+        "dateModified": "2026-03-02T10:05:00-05:00",
+        "images": [
+          "https://www.example.com/forum/q/1042/teaspoon-chart.png"
+        ],
+        "commentCount": 1,
+        "comments": [
+          {
+            "text": "Confirmed with my kitchen scale, thanks.",
+            "author": {
+              "name": "Riya Shah",
+              "url": "https://www.example.com/users/riya-shah"
+            },
+            "datePublished": "2026-03-02T12:02:00-05:00",
+            "dateModified": "2026-03-02T12:02:00-05:00"
+          }
+        ]
+      },
+      {
+        "accepted": false,
+        "text": "A metric cup is 250 ml, which is about 50 metric teaspoons of 5 ml.",
+        "votes": 7,
+        "url": "https://www.example.com/forum/q/1042#answer-2",
+        "author": {
+          "name": "Luis Ortega",
+          "url": "https://www.example.com/users/luis-ortega"
+        },
+        "datePublished": "2026-03-02T11:40:00-05:00",
+        "dateModified": "2026-03-03T08:12:00-05:00",
+        "commentCount": 1,
+        "comments": [
+          {
+            "text": "Useful if the recipe is Australian.",
+            "author": {
+              "name": "Tom Ellis",
+              "url": "https://www.example.com/users/tom-ellis"
+            },
+            "datePublished": "2026-03-03T09:00:00-05:00",
+            "dateModified": "2026-03-03T09:00:00-05:00"
+          }
+        ]
+      }
+    ]
+  }
+}

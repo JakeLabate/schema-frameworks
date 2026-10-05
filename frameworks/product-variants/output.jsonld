@@ -1,0 +1,216 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ProductGroup",
+  "@id": "https://www.example.com/#product-group-TH-SUMMIT-HOOD",
+  "name": "Summit Merino Hoodie",
+  "description": "Midweight merino wool hoodie with a scuba hood and thumb loops.",
+  "url": "https://www.example.com/shop/summit-merino-hoodie",
+  "brand": {
+    "@type": "Brand",
+    "name": "Trailhead Outfitters"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.7,
+    "bestRating": 5,
+    "worstRating": 1,
+    "reviewCount": 86
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Marcus Bell"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": 5,
+        "bestRating": 5,
+        "worstRating": 1
+      },
+      "datePublished": "2026-09-02"
+    }
+  ],
+  "productGroupID": "TH-SUMMIT-HOOD",
+  "variesBy": [
+    "https://schema.org/color",
+    "https://schema.org/size"
+  ],
+  "hasVariant": [
+    {
+      "@type": "Product",
+      "name": "Summit Merino Hoodie, Spruce, M",
+      "sku": "TH-SUMMIT-HOOD-SPR-M",
+      "gtin": "00812345670203",
+      "image": [
+        "https://www.example.com/img/summit-hoodie-spruce.jpg"
+      ],
+      "inProductGroupWithID": "TH-SUMMIT-HOOD",
+      "isVariantOf": {
+        "@id": "https://www.example.com/#product-group-TH-SUMMIT-HOOD"
+      },
+      "color": "Spruce",
+      "size": "M",
+      "url": "https://www.example.com/shop/summit-merino-hoodie?color=spruce&size=m",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.example.com/shop/summit-merino-hoodie?color=spruce&size=m",
+        "price": 129,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition",
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": 0,
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 0,
+              "maxValue": 1,
+              "unitCode": "DAY"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 2,
+              "maxValue": 5,
+              "unitCode": "DAY"
+            }
+          }
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 30,
+          "returnFees": "https://schema.org/FreeReturn"
+        }
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "Summit Merino Hoodie, Spruce, L",
+      "sku": "TH-SUMMIT-HOOD-SPR-L",
+      "gtin": "00812345670210",
+      "image": [
+        "https://www.example.com/img/summit-hoodie-spruce.jpg"
+      ],
+      "inProductGroupWithID": "TH-SUMMIT-HOOD",
+      "isVariantOf": {
+        "@id": "https://www.example.com/#product-group-TH-SUMMIT-HOOD"
+      },
+      "color": "Spruce",
+      "size": "L",
+      "url": "https://www.example.com/shop/summit-merino-hoodie?color=spruce&size=l",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.example.com/shop/summit-merino-hoodie?color=spruce&size=l",
+        "price": 129,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/LimitedAvailability",
+        "itemCondition": "https://schema.org/NewCondition",
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": 0,
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 0,
+              "maxValue": 1,
+              "unitCode": "DAY"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 2,
+              "maxValue": 5,
+              "unitCode": "DAY"
+            }
+          }
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 30,
+          "returnFees": "https://schema.org/FreeReturn"
+        }
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "Summit Merino Hoodie, Charcoal, M",
+      "sku": "TH-SUMMIT-HOOD-CHR-M",
+      "gtin": "00812345670227",
+      "image": [
+        "https://www.example.com/img/summit-hoodie-charcoal.jpg"
+      ],
+      "inProductGroupWithID": "TH-SUMMIT-HOOD",
+      "isVariantOf": {
+        "@id": "https://www.example.com/#product-group-TH-SUMMIT-HOOD"
+      },
+      "color": "Charcoal",
+      "size": "M",
+      "url": "https://www.example.com/shop/summit-merino-hoodie?color=charcoal&size=m",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.example.com/shop/summit-merino-hoodie?color=charcoal&size=m",
+        "price": 119,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/OutOfStock",
+        "itemCondition": "https://schema.org/NewCondition",
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": 0,
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 0,
+              "maxValue": 1,
+              "unitCode": "DAY"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 2,
+              "maxValue": 5,
+              "unitCode": "DAY"
+            }
+          }
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 30,
+          "returnFees": "https://schema.org/FreeReturn"
+        }
+      }
+    }
+  ]
+}

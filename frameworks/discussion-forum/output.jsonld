@@ -1,0 +1,76 @@
+{
+  "@context": "https://schema.org",
+  "@type": "DiscussionForumPosting",
+  "headline": "Rendering delays after migrating to a JS framework",
+  "author": {
+    "@type": "Person",
+    "name": "mkhan",
+    "url": "https://forum.example.com/u/mkhan"
+  },
+  "datePublished": "2026-09-28T10:14:00-04:00",
+  "dateModified": "2026-09-28T11:02:00-04:00",
+  "text": "Since moving our product pages to client-side rendering, new URLs take two to three weeks to show rendered content in URL Inspection. Has anyone measured this?",
+  "image": [
+    "https://forum.example.com/uploads/render-timeline.png"
+  ],
+  "url": "https://forum.example.com/t/rendering-delays-after-migration/4821",
+  "interactionStatistic": [
+    {
+      "@type": "InteractionCounter",
+      "interactionType": "https://schema.org/LikeAction",
+      "userInteractionCount": 18
+    },
+    {
+      "@type": "InteractionCounter",
+      "interactionType": "https://schema.org/ViewAction",
+      "userInteractionCount": 1240
+    }
+  ],
+  "comment": [
+    {
+      "@type": "Comment",
+      "author": {
+        "@type": "Person",
+        "name": "priya_r",
+        "url": "https://forum.example.com/u/priya_r"
+      },
+      "datePublished": "2026-09-28T12:40:00-04:00",
+      "text": "We saw the same pattern. Server-rendering the main content cut it to a few days.",
+      "url": "https://forum.example.com/t/rendering-delays-after-migration/4821/2",
+      "interactionStatistic": [
+        {
+          "@type": "InteractionCounter",
+          "interactionType": "https://schema.org/LikeAction",
+          "userInteractionCount": 9
+        }
+      ],
+      "comment": [
+        {
+          "@type": "Comment",
+          "author": {
+            "@type": "Person",
+            "name": "mkhan",
+            "url": "https://forum.example.com/u/mkhan"
+          },
+          "datePublished": "2026-09-28T13:05:00-04:00",
+          "text": "Did you keep hydration for the reviews widget?",
+          "url": "https://forum.example.com/t/rendering-delays-after-migration/4821/3"
+        }
+      ]
+    },
+    {
+      "@type": "Comment",
+      "author": {
+        "@type": "Person",
+        "name": "dlee",
+        "url": "https://forum.example.com/u/dlee"
+      },
+      "datePublished": "2026-09-29T08:20:00-04:00",
+      "text": "Check whether your sitemap lastmod values changed during the migration.",
+      "url": "https://forum.example.com/t/rendering-delays-after-migration/4821/4"
+    }
+  ],
+  "commentCount": 3,
+  "mainEntityOfPage": "https://forum.example.com/t/rendering-delays-after-migration/4821",
+  "isPartOf": "https://forum.example.com/c/technical-seo"
+}

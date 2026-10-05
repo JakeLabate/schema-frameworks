@@ -1,0 +1,57 @@
+{
+  "url": "https://www.example.com/books/the-salt-road",
+  "canonicalUrl": "https://www.example.com/books/the-salt-road",
+  "indexable": true,
+  "contentVisible": true,
+  "id": "https://www.example.com/books/the-salt-road#work",
+  "name": "The Salt Road",
+  "authors": [
+    {
+      "name": "Elena Marsh",
+      "sameAs": "https://en.wikipedia.org/wiki/Elena_Marsh"
+    }
+  ],
+  "sameAs": "https://www.wikidata.org/wiki/Q00000000",
+  "editions": [
+    {
+      "id": "https://www.example.com/books/the-salt-road/ebook#edition",
+      "url": "https://www.example.com/books/the-salt-road/ebook",
+      "format": "EBook",
+      "language": "en",
+      "isbn": "978-0-306-40615-7",
+      "bookEdition": "2nd Edition",
+      "datePublished": "2026-02-10",
+      "identifiers": [
+        {
+          "type": "OCLC_NUMBER",
+          "value": "ocm1234567"
+        }
+      ],
+      "sameAs": "https://www.example.com/catalog/9780306406157",
+      "actions": [
+        {
+          "type": "ReadAction",
+          "url": "https://www.example.com/checkout/the-salt-road-ebook",
+          "platforms": [
+            "DesktopWebPlatform",
+            "AndroidPlatform",
+            "IOSPlatform"
+          ],
+          "offers": [
+            {
+              "category": "purchase",
+              "price": 14.99,
+              "currency": "USD",
+              "regions": [
+                "US",
+                "CA"
+              ],
+              "availabilityStarts": "2026-02-10T00:00:00-05:00",
+              "availabilityEnds": "2027-12-31T23:59:59-05:00"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

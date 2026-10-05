@@ -1,0 +1,12 @@
+{
+  "title": "Discussion Forum",
+  "page": "https://www.jakelabate.com/schema-frameworks/discussion-forum/",
+  "js": {
+    "file": "discussion-forum-schema.js",
+    "fn": "buildDiscussionForumSchema"
+  },
+  "python": {
+    "file": "discussion_forum_schema.py",
+    "fn": "build_discussion_forum_schema"
+  }
+}

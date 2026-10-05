@@ -1,0 +1,76 @@
+{
+  "page": {
+    "url": "https://www.example.com/lists/best-heist-films-2026",
+    "canonicalUrl": "https://www.example.com/lists/best-heist-films-2026",
+    "noindex": false,
+    "contentVisible": true
+  },
+  "movies": [
+    {
+      "renderedOnThisPage": true,
+      "url": "https://www.example.com/lists/best-heist-films-2026#the-vault-line",
+      "name": "The Vault Line",
+      "images": [
+        {
+          "url": "https://www.example.com/posters/the-vault-line.jpg",
+          "width": 1200,
+          "height": 1800
+        }
+      ],
+      "releaseDate": "2026-02-13",
+      "directors": [
+        "Maya Ortiz"
+      ],
+      "aggregateRating": {
+        "ratingValue": 4.4,
+        "bestRating": 5,
+        "worstRating": 1,
+        "ratingCount": 1287
+      },
+      "reviews": [
+        {
+          "authorName": "Sam Patel",
+          "datePublished": "2026-02-20",
+          "rating": {
+            "ratingValue": 5,
+            "bestRating": 5,
+            "worstRating": 1
+          }
+        }
+      ]
+    },
+    {
+      "renderedOnThisPage": true,
+      "url": "https://www.example.com/lists/best-heist-films-2026#night-transfer",
+      "name": "Night Transfer",
+      "images": [
+        {
+          "url": "https://www.example.com/posters/night-transfer.png",
+          "width": 1000,
+          "height": 1500
+        }
+      ],
+      "releaseDate": "2026-05-08",
+      "directors": [
+        "Daniel Okafor"
+      ],
+      "aggregateRating": {
+        "ratingValue": 3.9,
+        "bestRating": 5,
+        "worstRating": 1,
+        "ratingCount": 642
+      },
+      "reviews": [
+        {
+          "authorName": "Lena Fischer",
+          "datePublished": "2026-05-15",
+          "rating": {
+            "ratingValue": 4,
+            "bestRating": 5,
+            "worstRating": 1
+          }
+        }
+      ]
+    }
+  ]
+}

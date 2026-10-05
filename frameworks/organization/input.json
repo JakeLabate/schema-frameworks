@@ -1,0 +1,134 @@
+{
+  "url": "https://www.example.com/about",
+  "canonicalUrl": "https://www.example.com/about",
+  "indexable": true,
+  "contentVisible": true,
+  "pageRole": "about",
+  "kind": "online_store",
+  "siteName": "Trailhead Outfitters",
+  "alternateNames": [
+    "Trailhead"
+  ],
+  "legalName": "Trailhead Outfitters LLC",
+  "description": "Online retailer of hiking packs, tents and trail apparel, shipping from Massachusetts since 2014.",
+  "homeUrl": "https://www.example.com/",
+  "logo": {
+    "url": "https://www.example.com/images/logo-512.png",
+    "width": 512,
+    "height": 512
+  },
+  "profiles": [
+    "https://www.linkedin.com/company/example",
+    "https://www.instagram.com/example"
+  ],
+  "telephone": "+1-781-555-0190",
+  "email": "hello@example.com",
+  "address": {
+    "street": "50 Main Street",
+    "locality": "Waltham",
+    "region": "MA",
+    "postalCode": "02453",
+    "country": "US"
+  },
+  "contactPoints": [
+    {
+      "type": "customer support",
+      "telephone": "+1-781-555-0191",
+      "email": "support@example.com"
+    }
+  ],
+  "foundingDate": "2014-04-01",
+  "employees": {
+    "min": 40,
+    "max": 60
+  },
+  "identifiers": {
+    "lei": "5493001KJTIIGC8Y1R12",
+    "naics": "459110",
+    "taxId": "04-3456789",
+    "taxIdCountry": "US"
+  },
+  "returnPolicies": [
+    {
+      "countries": [
+        "US",
+        "CA"
+      ],
+      "returnToCountries": [
+        "US"
+      ],
+      "category": "finite",
+      "days": 30,
+      "methods": [
+        "mail",
+        "in_store"
+      ],
+      "fees": "free",
+      "label": "download",
+      "refundTypes": [
+        "full"
+      ],
+      "conditions": [
+        "new"
+      ],
+      "restockingFeePercent": 0
+    }
+  ],
+  "shippingServices": [
+    {
+      "name": "Standard shipping",
+      "description": "Free on orders of $75 or more within the US.",
+      "handlingDays": [
+        0,
+        1
+      ],
+      "cutoffTime": "14:00:00-05:00",
+      "conditions": [
+        {
+          "destinations": [
+            {
+              "country": "US"
+            }
+          ],
+          "originCountry": "US",
+          "currency": "USD",
+          "minOrderValue": 75,
+          "rate": 0,
+          "transitDays": [
+            2,
+            5
+          ]
+        }
+      ]
+    }
+  ],
+  "loyaltyProgram": {
+    "name": "Trail Rewards",
+    "description": "Earn points on every order and unlock member prices.",
+    "url": "https://www.example.com/rewards",
+    "tiers": [
+      {
+        "id": "https://www.example.com/rewards#base",
+        "name": "Base",
+        "benefits": [
+          "points"
+        ],
+        "pointsPerUnit": 1
+      },
+      {
+        "id": "https://www.example.com/rewards#summit",
+        "name": "Summit",
+        "benefits": [
+          "points",
+          "member_price"
+        ],
+        "pointsPerUnit": 2,
+        "requirement": {
+          "type": "spend",
+          "value": 500,
+          "currency": "USD"
+        }
+      }
+    ]
+  }
+}

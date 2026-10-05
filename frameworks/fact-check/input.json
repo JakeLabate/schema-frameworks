@@ -1,0 +1,27 @@
+{
+  "url": "https://www.example.com/fact-checks/2026/moon-cheese",
+  "canonicalUrl": "https://www.example.com/fact-checks/2026/moon-cheese",
+  "indexable": true,
+  "verdictVisible": true,
+  "claimReviewsOnPage": 1,
+  "claimSummary": "The moon is made of cheese",
+  "verdict": {
+    "label": "False",
+    "value": 1,
+    "worst": 1,
+    "best": 5
+  },
+  "publisher": {
+    "name": "Example Fact Desk",
+    "url": "https://www.example.com/about/corrections-policy"
+  },
+  "claim": {
+    "authorName": "Square Moon Society",
+    "authorSameAs": "https://www.example.org/square-moon-society",
+    "datePublished": "2026-04-02",
+    "appearances": [
+      "https://www.example.org/posts/moon-facts"
+    ],
+    "firstAppearance": "https://www.example.org/posts/moon-facts"
+  }
+}

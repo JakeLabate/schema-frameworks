@@ -1,0 +1,12 @@
+{
+  "title": "Q&A",
+  "page": "https://www.jakelabate.com/schema-frameworks/q-and-a/",
+  "js": {
+    "file": "q-and-a-schema.js",
+    "fn": "buildQAPageSchema"
+  },
+  "python": {
+    "file": "q_and_a_schema.py",
+    "fn": "build_qa_page_schema"
+  }
+}

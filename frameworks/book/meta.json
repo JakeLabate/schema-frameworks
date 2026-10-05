@@ -1,0 +1,12 @@
+{
+  "title": "Book Actions",
+  "page": "https://www.jakelabate.com/schema-frameworks/book/",
+  "js": {
+    "file": "book-schema.js",
+    "fn": "buildBookFeedEntity"
+  },
+  "python": {
+    "file": "book_schema.py",
+    "fn": "build_book_feed_entity"
+  }
+}

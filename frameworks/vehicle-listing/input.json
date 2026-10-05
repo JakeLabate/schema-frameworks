@@ -1,0 +1,39 @@
+{
+  "page": {
+    "url": "https://www.example.com/inventory/2023-honda-cr-v-ex-l-awd-h24817",
+    "canonicalUrl": "https://www.example.com/inventory/2023-honda-cr-v-ex-l-awd-h24817",
+    "contentVisible": true
+  },
+  "vehicleClass": "car",
+  "name": "Used 2023 Honda CR-V EX-L AWD",
+  "description": "One-owner 2023 Honda CR-V EX-L with all-wheel drive, leather seats and a clean history report.",
+  "images": [
+    "https://www.example.com/photos/h24817-front-16x9.jpg",
+    "https://www.example.com/photos/h24817-side-4x3.jpg",
+    "https://www.example.com/photos/h24817-interior-1x1.jpg"
+  ],
+  "category": "Vehicles & Parts > Vehicles > Motor Vehicles > Cars, Trucks & Vans",
+  "stockNumber": "H24817",
+  "vin": "7FARS4H75PE012345",
+  "make": "Honda",
+  "model": "CR-V",
+  "modelYear": 2023,
+  "bodyType": "SUV",
+  "color": "Meteorite Gray Metallic",
+  "fuelType": "Gasoline",
+  "transmission": "Automatic (CVT)",
+  "drivetrain": "awd",
+  "doors": 4,
+  "mileage": {
+    "value": 21450,
+    "unit": "mi"
+  },
+  "condition": "used",
+  "offer": {
+    "price": 31995,
+    "currency": "USD",
+    "availability": "in_stock",
+    "validUntil": "2026-11-30",
+    "dealerName": "Example Honda of Waltham"
+  }
+}

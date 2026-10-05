@@ -1,0 +1,96 @@
+{
+  "url": "https://www.example.com/shop/summit-merino-hoodie",
+  "canonicalUrl": "https://www.example.com/shop/summit-merino-hoodie",
+  "indexable": true,
+  "contentVisible": true,
+  "name": "Summit Merino Hoodie",
+  "description": "Midweight merino wool hoodie with a scuba hood and thumb loops.",
+  "brand": "Trailhead Outfitters",
+  "groupId": "TH-SUMMIT-HOOD",
+  "variesBy": [
+    "color",
+    "size"
+  ],
+  "rating": {
+    "ratingValue": 4.7,
+    "reviewCount": 86
+  },
+  "reviews": [
+    {
+      "authorName": "Marcus Bell",
+      "rating": {
+        "ratingValue": 5
+      },
+      "datePublished": "2026-09-02"
+    }
+  ],
+  "shipping": {
+    "country": "US",
+    "rate": 0,
+    "currency": "USD",
+    "handlingDays": [
+      0,
+      1
+    ],
+    "transitDays": [
+      2,
+      5
+    ]
+  },
+  "returns": {
+    "country": "US",
+    "category": "finite",
+    "days": 30,
+    "fees": "free"
+  },
+  "variants": [
+    {
+      "name": "Summit Merino Hoodie, Spruce, M",
+      "sku": "TH-SUMMIT-HOOD-SPR-M",
+      "gtin": "00812345670203",
+      "color": "Spruce",
+      "size": "M",
+      "url": "https://www.example.com/shop/summit-merino-hoodie?color=spruce&size=m",
+      "images": [
+        "https://www.example.com/img/summit-hoodie-spruce.jpg"
+      ],
+      "offer": {
+        "price": 129,
+        "currency": "USD",
+        "availability": "InStock"
+      }
+    },
+    {
+      "name": "Summit Merino Hoodie, Spruce, L",
+      "sku": "TH-SUMMIT-HOOD-SPR-L",
+      "gtin": "00812345670210",
+      "color": "Spruce",
+      "size": "L",
+      "url": "https://www.example.com/shop/summit-merino-hoodie?color=spruce&size=l",
+      "images": [
+        "https://www.example.com/img/summit-hoodie-spruce.jpg"
+      ],
+      "offer": {
+        "price": 129,
+        "currency": "USD",
+        "availability": "LimitedAvailability"
+      }
+    },
+    {
+      "name": "Summit Merino Hoodie, Charcoal, M",
+      "sku": "TH-SUMMIT-HOOD-CHR-M",
+      "gtin": "00812345670227",
+      "color": "Charcoal",
+      "size": "M",
+      "url": "https://www.example.com/shop/summit-merino-hoodie?color=charcoal&size=m",
+      "images": [
+        "https://www.example.com/img/summit-hoodie-charcoal.jpg"
+      ],
+      "offer": {
+        "price": 119,
+        "currency": "USD",
+        "availability": "OutOfStock"
+      }
+    }
+  ]
+}

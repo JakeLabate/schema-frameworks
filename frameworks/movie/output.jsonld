@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "Movie",
+        "url": "https://www.example.com/lists/best-heist-films-2026#the-vault-line",
+        "name": "The Vault Line",
+        "image": [
+          "https://www.example.com/posters/the-vault-line.jpg"
+        ],
+        "dateCreated": "2026-02-13",
+        "director": [
+          {
+            "@type": "Person",
+            "name": "Maya Ortiz"
+          }
+        ],
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": 4.4,
+          "bestRating": 5,
+          "worstRating": 1,
+          "ratingCount": 1287
+        },
+        "review": [
+          {
+            "@type": "Review",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": 5,
+              "bestRating": 5,
+              "worstRating": 1
+            },
+            "author": {
+              "@type": "Person",
+              "name": "Sam Patel"
+            },
+            "datePublished": "2026-02-20"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Movie",
+        "url": "https://www.example.com/lists/best-heist-films-2026#night-transfer",
+        "name": "Night Transfer",
+        "image": [
+          "https://www.example.com/posters/night-transfer.png"
+        ],
+        "dateCreated": "2026-05-08",
+        "director": [
+          {
+            "@type": "Person",
+            "name": "Daniel Okafor"
+          }
+        ],
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": 3.9,
+          "bestRating": 5,
+          "worstRating": 1,
+          "ratingCount": 642
+        },
+        "review": [
+          {
+            "@type": "Review",
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": 4,
+              "bestRating": 5,
+              "worstRating": 1
+            },
+            "author": {
+              "@type": "Person",
+              "name": "Lena Fischer"
+            },
+            "datePublished": "2026-05-15"
+          }
+        ]
+      }
+    }
+  ]
+}

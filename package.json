@@ -1,0 +1,10 @@
+{
+  "name": "schema-frameworks",
+  "version": "1.0.0",
+  "description": "Tested schema.org JSON-LD builders for every Google rich result feature.",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "test": "node test/run.mjs && python3 test/run_python.py"
+  }
+}

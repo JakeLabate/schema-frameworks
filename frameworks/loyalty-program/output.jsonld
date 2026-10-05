@@ -1,0 +1,52 @@
+{
+  "@context": "https://schema.org",
+  "@type": "OnlineStore",
+  "@id": "https://www.example.com/#organization",
+  "name": "Trailhead Outfitters",
+  "url": "https://www.example.com/",
+  "hasMemberProgram": {
+    "@type": "MemberProgram",
+    "@id": "https://www.example.com/#program-basecamp",
+    "name": "Basecamp Rewards",
+    "description": "Earn points on every order and unlock member prices on gear and free 2-day shipping.",
+    "url": "https://www.example.com/rewards",
+    "hasTiers": [
+      {
+        "@type": "MemberProgramTier",
+        "@id": "https://www.example.com/#tier-trail",
+        "name": "Trail",
+        "hasTierBenefit": [
+          "https://schema.org/TierBenefitLoyaltyPoints"
+        ],
+        "hasTierRequirement": "Create a free online account",
+        "membershipPointsEarned": {
+          "@type": "QuantitativeValue",
+          "value": 1
+        },
+        "url": "https://www.example.com/rewards/join"
+      },
+      {
+        "@type": "MemberProgramTier",
+        "@id": "https://www.example.com/#tier-summit",
+        "name": "Summit",
+        "hasTierBenefit": [
+          "https://schema.org/TierBenefitLoyaltyPoints",
+          "https://schema.org/TierBenefitLoyaltyPrice"
+        ],
+        "hasTierRequirement": {
+          "@type": "UnitPriceSpecification",
+          "price": 49,
+          "priceCurrency": "USD",
+          "billingDuration": 12,
+          "billingIncrement": 1,
+          "unitCode": "MON"
+        },
+        "membershipPointsEarned": {
+          "@type": "QuantitativeValue",
+          "value": 3
+        },
+        "url": "https://www.example.com/rewards/summit"
+      }
+    ]
+  }
+}

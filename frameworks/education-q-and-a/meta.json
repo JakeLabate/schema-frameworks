@@ -1,0 +1,12 @@
+{
+  "title": "Education Q&A",
+  "page": "https://www.jakelabate.com/schema-frameworks/education-q-and-a/",
+  "js": {
+    "file": "education-q-and-a-schema.js",
+    "fn": "buildQuizSchema"
+  },
+  "python": {
+    "file": "education_q_and_a_schema.py",
+    "fn": "build_quiz_schema"
+  }
+}

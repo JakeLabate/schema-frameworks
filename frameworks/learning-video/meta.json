@@ -1,0 +1,12 @@
+{
+  "title": "Learning Video",
+  "page": "https://www.jakelabate.com/schema-frameworks/learning-video/",
+  "js": {
+    "file": "learning-video-schema.js",
+    "fn": "buildLearningVideoSchema"
+  },
+  "python": {
+    "file": "learning_video_schema.py",
+    "fn": "build_learning_video_schema"
+  }
+}

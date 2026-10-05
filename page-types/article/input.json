@@ -1,0 +1,57 @@
+{
+  "site": {
+    "url": "https://www.example.com"
+  },
+  "page": {
+    "url": "https://www.example.com/journal/how-to-waterproof-a-rain-jacket/",
+    "title": "How to Re-Waterproof a Rain Jacket | Harbor & Pine Journal",
+    "breadcrumbs": [
+      {
+        "name": "Home",
+        "url": "https://www.example.com/"
+      },
+      {
+        "name": "Journal",
+        "url": "https://www.example.com/journal/"
+      },
+      {
+        "name": "How to Re-Waterproof a Rain Jacket",
+        "url": "https://www.example.com/journal/how-to-waterproof-a-rain-jacket/"
+      }
+    ]
+  },
+  "article": {
+    "kind": "blog",
+    "headline": "How to Re-Waterproof a Rain Jacket in Four Steps",
+    "description": "Wash, dry, treat and heat: how to bring back the water beading on a tired shell jacket.",
+    "images": [
+      "https://www.example.com/img/journal/rewaterproof-1x1.jpg",
+      "https://www.example.com/img/journal/rewaterproof-4x3.jpg",
+      "https://www.example.com/img/journal/rewaterproof-16x9.jpg"
+    ],
+    "datePublished": "2026-03-12T09:00:00-04:00",
+    "dateModified": "2026-09-02T14:30:00-04:00",
+    "authors": [
+      {
+        "name": "Maya Okafor",
+        "jobTitle": "Gear Editor",
+        "profileUrl": "https://www.example.com/journal/authors/maya-okafor/",
+        "sameAs": [
+          "https://www.linkedin.com/in/example-maya"
+        ]
+      },
+      {
+        "name": "Staff"
+      }
+    ],
+    "video": {
+      "name": "Re-waterproofing a rain shell",
+      "description": "The four steps, start to finish, on a three-layer jacket.",
+      "thumbnailUrl": "https://www.example.com/img/journal/rewaterproof-video.jpg",
+      "uploadDate": "2026-03-12T09:00:00-04:00",
+      "duration": "PT4M20S",
+      "embedUrl": "https://www.youtube.com/embed/example"
+    },
+    "paywalledSelector": ".members-only"
+  }
+}

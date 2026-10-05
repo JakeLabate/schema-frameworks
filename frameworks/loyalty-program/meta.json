@@ -1,0 +1,12 @@
+{
+  "title": "Loyalty Program",
+  "page": "https://www.jakelabate.com/schema-frameworks/loyalty-program/",
+  "js": {
+    "file": "loyalty-program-schema.js",
+    "fn": "buildLoyaltyProgramSchema"
+  },
+  "python": {
+    "file": "loyalty_program_schema.py",
+    "fn": "build_loyalty_program_schema"
+  }
+}

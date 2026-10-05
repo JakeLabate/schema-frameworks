@@ -1,0 +1,100 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Lemon Garlic Sheet Pan Salmon",
+  "image": [
+    "https://www.example.com/img/salmon-16x9.jpg",
+    "https://www.example.com/img/salmon-4x3.jpg",
+    "https://www.example.com/img/salmon-1x1.jpg"
+  ],
+  "description": "Salmon fillets roasted with lemon, garlic and green beans on one pan.",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Maya Ortiz",
+      "url": "https://www.example.com/authors/maya-ortiz"
+    }
+  ],
+  "datePublished": "2026-03-18",
+  "prepTime": "PT10M",
+  "cookTime": "PT15M",
+  "totalTime": "PT25M",
+  "recipeYield": [
+    "4"
+  ],
+  "recipeCategory": "Dinner",
+  "recipeCuisine": "American",
+  "keywords": "weeknight, sheet pan",
+  "nutrition": {
+    "@type": "NutritionInformation",
+    "calories": "410 calories"
+  },
+  "recipeIngredient": [
+    "4 salmon fillets",
+    "1 lb green beans",
+    "3 cloves garlic, minced",
+    "1 lemon, sliced",
+    "2 tbsp olive oil"
+  ],
+  "recipeInstructions": [
+    {
+      "@type": "HowToStep",
+      "name": "Prep the pan",
+      "text": "Heat the oven to 425F and toss the green beans with oil on a sheet pan.",
+      "url": "https://www.example.com/recipes/lemon-garlic-salmon#step-1",
+      "image": "https://www.example.com/img/salmon-step-1.jpg",
+      "video": {
+        "@type": "Clip",
+        "name": "Prep the pan",
+        "startOffset": 0,
+        "endOffset": 45,
+        "url": "https://www.example.com/video/salmon?t=0"
+      }
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Add the salmon",
+      "text": "Nestle the salmon among the beans, top with garlic and lemon slices.",
+      "url": "https://www.example.com/recipes/lemon-garlic-salmon#step-2",
+      "image": "https://www.example.com/img/salmon-step-2.jpg",
+      "video": {
+        "@type": "Clip",
+        "name": "Add the salmon",
+        "startOffset": 45,
+        "endOffset": 100,
+        "url": "https://www.example.com/video/salmon?t=45"
+      }
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Roast",
+      "text": "Roast for 12 to 15 minutes, until the salmon flakes easily.",
+      "url": "https://www.example.com/recipes/lemon-garlic-salmon#step-3",
+      "image": "https://www.example.com/img/salmon-step-3.jpg",
+      "video": {
+        "@type": "Clip",
+        "name": "Roast",
+        "startOffset": 100,
+        "endOffset": 160,
+        "url": "https://www.example.com/video/salmon?t=100"
+      }
+    }
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.8,
+    "bestRating": 5,
+    "worstRating": 1,
+    "ratingCount": 312
+  },
+  "video": {
+    "@type": "VideoObject",
+    "name": "How to make lemon garlic sheet pan salmon",
+    "description": "Watch the salmon and green beans go from pan to plate in 25 minutes.",
+    "thumbnailUrl": "https://www.example.com/img/salmon-video-thumb.jpg",
+    "uploadDate": "2026-03-18T09:00:00-04:00",
+    "duration": "PT2M40S",
+    "contentUrl": "https://www.example.com/video/salmon.mp4",
+    "embedUrl": "https://www.example.com/embed/salmon"
+  }
+}

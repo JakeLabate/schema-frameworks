@@ -1,0 +1,32 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ClaimReview",
+  "url": "https://www.example.com/fact-checks/2026/moon-cheese",
+  "claimReviewed": "The moon is made of cheese",
+  "reviewRating": {
+    "@type": "Rating",
+    "alternateName": "False",
+    "name": "False",
+    "ratingValue": 1,
+    "worstRating": 1,
+    "bestRating": 5
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "Example Fact Desk",
+    "url": "https://www.example.com/about/corrections-policy"
+  },
+  "itemReviewed": {
+    "@type": "Claim",
+    "author": {
+      "@type": "Organization",
+      "name": "Square Moon Society",
+      "sameAs": "https://www.example.org/square-moon-society"
+    },
+    "datePublished": "2026-04-02",
+    "appearance": [
+      "https://www.example.org/posts/moon-facts"
+    ],
+    "firstAppearance": "https://www.example.org/posts/moon-facts"
+  }
+}

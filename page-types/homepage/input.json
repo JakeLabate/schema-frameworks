@@ -1,0 +1,76 @@
+{
+  "site": {
+    "type": "OnlineStore",
+    "name": "Harbor & Pine",
+    "alternateName": "Harbor and Pine",
+    "url": "https://www.example.com",
+    "logo": "https://www.example.com/assets/logo.png",
+    "description": "Outdoor clothing and camp gear, sold online and in three stores in Maine.",
+    "email": "help@example.com",
+    "telephone": "+1-207-555-0140",
+    "foundingDate": "2014-05-01",
+    "sameAs": [
+      "https://www.instagram.com/example",
+      "https://www.linkedin.com/company/example"
+    ],
+    "returnPolicy": {
+      "country": "US",
+      "window": "finite",
+      "days": 30,
+      "byMail": true,
+      "freeReturns": true,
+      "link": "https://www.example.com/returns/"
+    },
+    "shipping": {
+      "name": "Standard shipping",
+      "currency": "USD",
+      "destinations": [
+        {
+          "country": "US",
+          "rate": 6.95,
+          "freeOver": 75,
+          "minDays": 2,
+          "maxDays": 5
+        }
+      ]
+    },
+    "loyalty": {
+      "name": "Trailhead Rewards",
+      "description": "Free to join. Members earn points on every order and get member pricing on selected gear.",
+      "url": "https://www.example.com/rewards/",
+      "tiers": [
+        {
+          "key": "member",
+          "name": "Member",
+          "benefits": [
+            "points",
+            "price"
+          ],
+          "pointsPerDollar": 1,
+          "url": "https://www.example.com/rewards/#member"
+        },
+        {
+          "key": "summit",
+          "name": "Summit",
+          "benefits": [
+            "points",
+            "price"
+          ],
+          "pointsPerDollar": 2,
+          "minSpend": 500,
+          "url": "https://www.example.com/rewards/#summit"
+        }
+      ]
+    },
+    "address": {
+      "street": "214 Commercial Street",
+      "city": "Portland",
+      "region": "ME",
+      "postalCode": "04101",
+      "country": "US"
+    }
+  },
+  "page": {
+    "title": "Harbor & Pine | Outdoor clothing and camp gear"
+  }
+}

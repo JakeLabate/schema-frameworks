@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "City Council Approves 2027 Transit Budget",
+  "url": "https://www.example.com/news/2026/09/city-council-approves-transit-budget",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      ".article-headline",
+      ".article-summary"
+    ]
+  }
+}

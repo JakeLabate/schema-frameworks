@@ -1,0 +1,36 @@
+{
+  "url": "https://www.example.com/guides/replace-bike-chain",
+  "canonicalUrl": "https://www.example.com/guides/replace-bike-chain",
+  "indexable": true,
+  "stepsVisible": true,
+  "title": "How to replace a bike chain",
+  "description": "Swap a worn 11-speed chain with a chain tool and a quick link.",
+  "image": "https://www.example.com/guides/replace-bike-chain/hero.jpg",
+  "totalMinutes": 25,
+  "supplies": [
+    "11-speed chain",
+    "Quick link"
+  ],
+  "tools": [
+    "Chain tool",
+    "Chain checker"
+  ],
+  "steps": [
+    {
+      "name": "Check wear",
+      "text": "Measure the old chain with a chain checker; replace it at 0.5% stretch.",
+      "anchor": "step-1"
+    },
+    {
+      "name": "Remove the old chain",
+      "text": "Open the quick link or push out a pin with the chain tool.",
+      "anchor": "step-2"
+    },
+    {
+      "name": "Size and fit the new chain",
+      "text": "Match the old chain length, thread it through the derailleur and close the quick link.",
+      "anchor": "step-3",
+      "image": "https://www.example.com/guides/replace-bike-chain/quick-link.jpg"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Quiz",
+  "about": {
+    "@type": "Thing",
+    "name": "Cell transport"
+  },
+  "educationalAlignment": [
+    {
+      "@type": "AlignmentObject",
+      "alignmentType": "educationalSubject",
+      "targetName": "Biology"
+    },
+    {
+      "@type": "AlignmentObject",
+      "alignmentType": "educationalLevel",
+      "targetName": "Grade 7: Cell Structure"
+    }
+  ],
+  "hasPart": [
+    {
+      "@type": "Question",
+      "eduQuestionType": "Flashcard",
+      "text": "What is the process by which molecules move from high to low concentration?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Diffusion"
+      }
+    },
+    {
+      "@type": "Question",
+      "eduQuestionType": "Flashcard",
+      "text": "Which organelle controls what enters and leaves the cell?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cell membrane"
+      }
+    }
+  ]
+}

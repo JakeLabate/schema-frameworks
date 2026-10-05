@@ -1,0 +1,12 @@
+{
+  "title": "Product Snippet",
+  "page": "https://www.jakelabate.com/schema-frameworks/product-snippet/",
+  "js": {
+    "file": "product-snippet-schema.js",
+    "fn": "buildProductSchema"
+  },
+  "python": {
+    "file": "product_snippet_schema.py",
+    "fn": "build_product_schema"
+  }
+}

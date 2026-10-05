@@ -1,0 +1,47 @@
+{
+  "page": {
+    "url": "https://www.example.com/lessons/solving-linear-equations",
+    "canonicalUrl": "https://www.example.com/lessons/solving-linear-equations",
+    "contentVisible": true
+  },
+  "name": "Solving Linear Equations in One Variable",
+  "description": "A worked lesson on isolating the variable in one-step and two-step linear equations, with four practice problems.",
+  "thumbnailUrls": [
+    "https://www.example.com/media/linear-equations-16x9.jpg",
+    "https://www.example.com/media/linear-equations-4x3.jpg",
+    "https://www.example.com/media/linear-equations-1x1.jpg"
+  ],
+  "uploadDate": "2026-08-18T09:00:00-04:00",
+  "durationSeconds": 754,
+  "contentUrl": "https://cdn.example.com/video/linear-equations.mp4",
+  "embedUrl": "https://www.example.com/embed/linear-equations",
+  "creator": {
+    "type": "Organization",
+    "name": "Example Math Academy",
+    "url": "https://www.example.com/about"
+  },
+  "chapters": [
+    {
+      "name": "One-step equations",
+      "start": 0,
+      "end": 185
+    },
+    {
+      "name": "Two-step equations",
+      "start": 185,
+      "end": 472
+    },
+    {
+      "name": "Practice problems",
+      "start": 472,
+      "end": 754
+    }
+  ],
+  "viewCount": 18342,
+  "learning": {
+    "educationalLevel": "Grade 8",
+    "learningResourceType": "Video lesson",
+    "teaches": "Solving one-step and two-step linear equations",
+    "inLanguage": "en"
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "OnlineStore",
+      "@id": "https://www.example.com/#organization",
+      "name": "Harbor & Pine",
+      "alternateName": "Harbor and Pine",
+      "url": "https://www.example.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.example.com/assets/logo.png"
+      },
+      "description": "Outdoor clothing and camp gear, sold online and in three stores in Maine.",
+      "email": "help@example.com",
+      "telephone": "+1-207-555-0140",
+      "sameAs": [
+        "https://www.instagram.com/example",
+        "https://www.linkedin.com/company/example"
+      ],
+      "foundingDate": "2014-05-01",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "214 Commercial Street",
+        "addressLocality": "Portland",
+        "addressRegion": "ME",
+        "postalCode": "04101",
+        "addressCountry": "US"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer service",
+        "email": "help@example.com",
+        "telephone": "+1-207-555-0140"
+      },
+      "hasMerchantReturnPolicy": {
+        "@type": "MerchantReturnPolicy",
+        "@id": "https://www.example.com/#return-policy",
+        "applicableCountry": "US",
+        "returnPolicyCountry": "US",
+        "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+        "merchantReturnLink": "https://www.example.com/returns/",
+        "merchantReturnDays": 30,
+        "returnMethod": "https://schema.org/ReturnByMail",
+        "returnFees": "https://schema.org/FreeReturn",
+        "refundType": "https://schema.org/FullRefund"
+      },
+      "hasShippingService": {
+        "@type": "ShippingService",
+        "@id": "https://www.example.com/#shipping",
+        "name": "Standard shipping",
+        "shippingConditions": [
+          {
+            "@type": "ShippingConditions",
+            "shippingDestination": {
+              "@type": "DefinedRegion",
+              "addressCountry": "US"
+            },
+            "shippingRate": {
+              "@type": "MonetaryAmount",
+              "value": 6.95,
+              "currency": "USD"
+            },
+            "transitTime": {
+              "@type": "ServicePeriod",
+              "duration": {
+                "@type": "QuantitativeValue",
+                "minValue": 2,
+                "maxValue": 5,
+                "unitCode": "DAY"
+              }
+            },
+            "orderValue": {
+              "@type": "MonetaryAmount",
+              "minValue": 0,
+              "maxValue": 75,
+              "currency": "USD"
+            }
+          },
+          {
+            "@type": "ShippingConditions",
+            "shippingDestination": {
+              "@type": "DefinedRegion",
+              "addressCountry": "US"
+            },
+            "orderValue": {
+              "@type": "MonetaryAmount",
+              "minValue": 75,
+              "currency": "USD"
+            },
+            "shippingRate": {
+              "@type": "MonetaryAmount",
+              "value": 0,
+              "currency": "USD"
+            },
+            "transitTime": {
+              "@type": "ServicePeriod",
+              "duration": {
+                "@type": "QuantitativeValue",
+                "minValue": 2,
+                "maxValue": 5,
+                "unitCode": "DAY"
+              }
+            }
+          }
+        ]
+      },
+      "hasMemberProgram": {
+        "@type": "MemberProgram",
+        "@id": "https://www.example.com/#member-program",
+        "name": "Trailhead Rewards",
+        "description": "Free to join. Members earn points on every order and get member pricing on selected gear.",
+        "url": "https://www.example.com/rewards/",
+        "hasTiers": [
+          {
+            "@type": "MemberProgramTier",
+            "@id": "https://www.example.com/#tier-member",
+            "name": "Member",
+            "url": "https://www.example.com/rewards/#member",
+            "hasTierBenefit": [
+              "https://schema.org/TierBenefitLoyaltyPoints",
+              "https://schema.org/TierBenefitLoyaltyPrice"
+            ],
+            "membershipPointsEarned": {
+              "@type": "QuantitativeValue",
+              "value": 1,
+              "unitText": "points per USD"
+            }
+          },
+          {
+            "@type": "MemberProgramTier",
+            "@id": "https://www.example.com/#tier-summit",
+            "name": "Summit",
+            "url": "https://www.example.com/rewards/#summit",
+            "hasTierBenefit": [
+              "https://schema.org/TierBenefitLoyaltyPoints",
+              "https://schema.org/TierBenefitLoyaltyPrice"
+            ],
+            "membershipPointsEarned": {
+              "@type": "QuantitativeValue",
+              "value": 2,
+              "unitText": "points per USD"
+            },
+            "hasTierRequirement": {
+              "@type": "MonetaryAmount",
+              "value": 500,
+              "currency": "USD"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.example.com/#website",
+      "name": "Harbor & Pine",
+      "alternateName": "Harbor and Pine",
+      "url": "https://www.example.com/",
+      "publisher": {
+        "@id": "https://www.example.com/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.example.com/#webpage",
+      "url": "https://www.example.com/",
+      "name": "Harbor & Pine | Outdoor clothing and camp gear",
+      "isPartOf": {
+        "@id": "https://www.example.com/#website"
+      },
+      "about": {
+        "@id": "https://www.example.com/#organization"
+      }
+    }
+  ]
+}

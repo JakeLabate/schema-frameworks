@@ -1,0 +1,64 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Northwind Trail 2 Running Shoe",
+  "image": [
+    "https://www.example.com/img/northwind-trail-2.jpg"
+  ],
+  "description": "A cushioned trail running shoe with a rock plate and a 6 mm drop.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Northwind"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.4,
+    "bestRating": 5,
+    "worstRating": 1,
+    "reviewCount": 57
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Jordan Lee"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": 4.5,
+        "bestRating": 5,
+        "worstRating": 1
+      },
+      "datePublished": "2026-09-22",
+      "positiveNotes": {
+        "@type": "ItemList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Stable on loose descents"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Grippy outsole in the wet"
+          }
+        ]
+      },
+      "negativeNotes": {
+        "@type": "ItemList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Runs half a size small"
+          }
+        ]
+      }
+    }
+  ],
+  "sku": "NW-TRAIL2",
+  "mpn": "TR2-2026",
+  "gtin": "00812345678905"
+}

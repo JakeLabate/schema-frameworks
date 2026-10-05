@@ -1,0 +1,180 @@
+{
+  "@context": "https://schema.org",
+  "@type": "OnlineStore",
+  "@id": "https://www.example.com/#organization",
+  "name": "Trailhead Outfitters",
+  "alternateName": [
+    "Trailhead"
+  ],
+  "legalName": "Trailhead Outfitters LLC",
+  "description": "Online retailer of hiking packs, tents and trail apparel, shipping from Massachusetts since 2014.",
+  "url": "https://www.example.com/",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://www.example.com/images/logo-512.png",
+    "width": 512,
+    "height": 512
+  },
+  "sameAs": [
+    "https://www.linkedin.com/company/example",
+    "https://www.instagram.com/example"
+  ],
+  "telephone": "+1-781-555-0190",
+  "email": "hello@example.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "50 Main Street",
+    "addressLocality": "Waltham",
+    "addressRegion": "MA",
+    "postalCode": "02453",
+    "addressCountry": "US"
+  },
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "contactType": "customer support",
+      "telephone": "+1-781-555-0191",
+      "email": "support@example.com"
+    }
+  ],
+  "foundingDate": "2014-04-01",
+  "numberOfEmployees": {
+    "@type": "QuantitativeValue",
+    "minValue": 40,
+    "maxValue": 60
+  },
+  "iso6523Code": "0199:5493001KJTIIGC8Y1R12",
+  "naics": "459110",
+  "taxID": "04-3456789",
+  "hasMerchantReturnPolicy": [
+    {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": [
+        "US",
+        "CA"
+      ],
+      "returnPolicyCountry": [
+        "US"
+      ],
+      "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+      "merchantReturnDays": 30,
+      "returnMethod": [
+        "https://schema.org/ReturnByMail",
+        "https://schema.org/ReturnInStore"
+      ],
+      "returnFees": "https://schema.org/FreeReturn",
+      "returnLabelSource": "https://schema.org/ReturnLabelDownloadAndPrint",
+      "refundType": [
+        "https://schema.org/FullRefund"
+      ],
+      "itemCondition": [
+        "https://schema.org/NewCondition"
+      ],
+      "restockingFee": 0
+    }
+  ],
+  "hasShippingService": [
+    {
+      "@type": "ShippingService",
+      "name": "Standard shipping",
+      "description": "Free on orders of $75 or more within the US.",
+      "fulfillmentType": "https://schema.org/FulfillmentTypeDelivery",
+      "handlingTime": {
+        "@type": "ServicePeriod",
+        "duration": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 1,
+          "unitCode": "DAY"
+        },
+        "businessDays": [
+          "https://schema.org/Monday",
+          "https://schema.org/Tuesday",
+          "https://schema.org/Wednesday",
+          "https://schema.org/Thursday",
+          "https://schema.org/Friday"
+        ],
+        "cutoffTime": "14:00:00-05:00"
+      },
+      "shippingConditions": [
+        {
+          "@type": "ShippingConditions",
+          "shippingDestination": [
+            {
+              "@type": "DefinedRegion",
+              "addressCountry": "US"
+            }
+          ],
+          "shippingOrigin": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "orderValue": {
+            "@type": "MonetaryAmount",
+            "minValue": 75,
+            "currency": "USD"
+          },
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": 0,
+            "currency": "USD"
+          },
+          "transitTime": {
+            "@type": "ServicePeriod",
+            "duration": {
+              "@type": "QuantitativeValue",
+              "minValue": 2,
+              "maxValue": 5,
+              "unitCode": "DAY"
+            },
+            "businessDays": [
+              "https://schema.org/Monday",
+              "https://schema.org/Tuesday",
+              "https://schema.org/Wednesday",
+              "https://schema.org/Thursday",
+              "https://schema.org/Friday"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasMemberProgram": {
+    "@type": "MemberProgram",
+    "name": "Trail Rewards",
+    "description": "Earn points on every order and unlock member prices.",
+    "url": "https://www.example.com/rewards",
+    "hasTiers": [
+      {
+        "@type": "MemberProgramTier",
+        "@id": "https://www.example.com/rewards#base",
+        "name": "Base",
+        "hasTierBenefit": [
+          "https://schema.org/TierBenefitLoyaltyPoints"
+        ],
+        "membershipPointsEarned": {
+          "@type": "QuantitativeValue",
+          "value": 1
+        }
+      },
+      {
+        "@type": "MemberProgramTier",
+        "@id": "https://www.example.com/rewards#summit",
+        "name": "Summit",
+        "hasTierBenefit": [
+          "https://schema.org/TierBenefitLoyaltyPoints",
+          "https://schema.org/TierBenefitLoyaltyPrice"
+        ],
+        "hasTierRequirement": {
+          "@type": "MonetaryAmount",
+          "value": 500,
+          "currency": "USD"
+        },
+        "membershipPointsEarned": {
+          "@type": "QuantitativeValue",
+          "value": 2
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "url": "https://www.example.com/algebra/linear-equations/practice",
+  "canonicalUrl": "https://www.example.com/algebra/linear-equations/practice",
+  "indexable": true,
+  "problemsVisible": true,
+  "title": "Linear equations practice set",
+  "concept": "Solving linear equations",
+  "alignments": [
+    {
+      "type": "educationalSubject",
+      "targetName": "Algebra"
+    },
+    {
+      "type": "educationalLevel",
+      "targetName": "Grade 8"
+    }
+  ],
+  "problems": [
+    {
+      "question": "Solve for x: 3x + 5 = 20",
+      "answer": "x = 5"
+    },
+    {
+      "question": "Solve for y: 2y - 7 = 9",
+      "answer": "y = 8"
+    },
+    {
+      "question": "Which value of x satisfies 4x = 28?",
+      "options": [
+        {
+          "text": "6"
+        },
+        {
+          "text": "7",
+          "correct": true
+        },
+        {
+          "text": "8"
+        }
+      ]
+    }
+  ]
+}

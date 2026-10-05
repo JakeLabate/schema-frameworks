@@ -1,0 +1,38 @@
+{
+  "page": {
+    "url": "https://www.example.com/salaries/registered-nurse/boston-ma",
+    "canonicalUrl": "https://www.example.com/salaries/registered-nurse/boston-ma",
+    "contentVisible": true
+  },
+  "name": "Registered Nurse",
+  "description": "Registered nurse pay in Boston, MA, based on 1,240 salary reports submitted between January and September 2026.",
+  "occupationalCategory": "29-1141.00",
+  "locations": [
+    {
+      "kind": "city",
+      "name": "Boston, MA"
+    }
+  ],
+  "currency": "USD",
+  "salaryRanges": [
+    {
+      "label": "base",
+      "period": "year",
+      "p10": 78000,
+      "p25": 89500,
+      "median": 101200,
+      "p75": 114800,
+      "p90": 128300
+    },
+    {
+      "label": "base",
+      "period": "hour",
+      "p10": 37.5,
+      "p25": 43,
+      "median": 48.65,
+      "p75": 55.2,
+      "p90": 61.7
+    }
+  ],
+  "skills": "Patient assessment, medication administration, electronic health records"
+}

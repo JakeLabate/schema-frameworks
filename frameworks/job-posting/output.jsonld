@@ -1,0 +1,55 @@
+{
+  "@context": "https://schema.org",
+  "@type": "JobPosting",
+  "title": "Senior Technical SEO Analyst",
+  "description": "<p>Own technical SEO for a 40,000 page ecommerce catalog.</p><ul><li>Audit crawling, rendering and indexing</li><li>Ship structured data with engineering</li></ul><p>Hybrid schedule, three days a week in our Waltham office.</p>",
+  "datePosted": "2026-09-28",
+  "validThrough": "2026-12-31T23:59:00-05:00",
+  "hiringOrganization": {
+    "@type": "Organization",
+    "name": "Example Retail Group",
+    "sameAs": "https://www.example.com",
+    "logo": "https://www.example.com/images/logo-square.png"
+  },
+  "jobLocation": [
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "50 Main Street",
+        "addressLocality": "Waltham",
+        "addressRegion": "MA",
+        "postalCode": "02453",
+        "addressCountry": "US"
+      }
+    }
+  ],
+  "employmentType": [
+    "FULL_TIME"
+  ],
+  "baseSalary": {
+    "@type": "MonetaryAmount",
+    "currency": "USD",
+    "value": {
+      "@type": "QuantitativeValue",
+      "minValue": 110000,
+      "maxValue": 135000,
+      "unitText": "YEAR"
+    }
+  },
+  "directApply": true,
+  "identifier": {
+    "@type": "PropertyValue",
+    "name": "Example Retail Group",
+    "value": "SEO-2026-114"
+  },
+  "educationRequirements": {
+    "@type": "EducationalOccupationalCredential",
+    "credentialCategory": "bachelor degree"
+  },
+  "experienceRequirements": {
+    "@type": "OccupationalExperienceRequirements",
+    "monthsOfExperience": 48
+  },
+  "experienceInPlaceOfEducation": true
+}

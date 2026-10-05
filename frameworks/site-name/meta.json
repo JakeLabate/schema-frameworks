@@ -1,0 +1,12 @@
+{
+  "title": "Site Name",
+  "page": "https://www.jakelabate.com/schema-frameworks/site-name/",
+  "js": {
+    "file": "site-name-schema.js",
+    "fn": "buildWebSiteSchema"
+  },
+  "python": {
+    "file": "site_name_schema.py",
+    "fn": "build_website_schema"
+  }
+}

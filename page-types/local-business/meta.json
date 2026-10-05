@@ -1,0 +1,10 @@
+{
+  "title": "Local Business Page",
+  "page": "https://www.jakelabate.com/schema-frameworks/page-types/local-business/",
+  "js": {
+    "file": "local-business-page-schema.js",
+    "fn": "buildLocalBusinessPageSchema"
+  },
+  "python": null,
+  "linksTo": "homepage"
+}

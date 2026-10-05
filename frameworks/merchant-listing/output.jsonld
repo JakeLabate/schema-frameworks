@@ -1,0 +1,148 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Ridgeline 3L Waterproof Rain Jacket, Women's",
+  "image": [
+    "https://www.example.com/img/ridgeline-womens-1x1.jpg",
+    "https://www.example.com/img/ridgeline-womens-4x3.jpg",
+    "https://www.example.com/img/ridgeline-womens-16x9.jpg"
+  ],
+  "description": "Three-layer waterproof shell with pit zips, a helmet-compatible hood and taped seams.",
+  "sku": "TH-RIDGE-W-SPR-M",
+  "mpn": "RDG3L-W-26",
+  "gtin": "00812345670142",
+  "brand": {
+    "@type": "Brand",
+    "name": "Trailhead Outfitters"
+  },
+  "category": "Apparel & Accessories > Clothing > Outerwear > Coats & Jackets",
+  "color": "Spruce",
+  "material": "Recycled nylon",
+  "pattern": "Solid",
+  "size": "M",
+  "audience": {
+    "@type": "PeopleAudience",
+    "suggestedGender": "female",
+    "suggestedMinAge": 13
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.6,
+    "bestRating": 5,
+    "worstRating": 1,
+    "reviewCount": 128
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Priya Shah"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": 5,
+        "bestRating": 5,
+        "worstRating": 1
+      },
+      "datePublished": "2026-09-14"
+    }
+  ],
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.example.com/shop/ridgeline-rain-jacket-womens",
+    "price": 179,
+    "priceCurrency": "USD",
+    "priceSpecification": [
+      {
+        "@type": "UnitPriceSpecification",
+        "priceType": "https://schema.org/StrikethroughPrice",
+        "price": 229,
+        "priceCurrency": "USD"
+      },
+      {
+        "@type": "UnitPriceSpecification",
+        "price": 161,
+        "priceCurrency": "USD",
+        "validForMemberTier": {
+          "@id": "https://www.example.com/rewards#tier-gold"
+        },
+        "membershipPointsEarned": 179
+      }
+    ],
+    "priceValidUntil": "2026-10-31",
+    "validFrom": "2026-10-01T00:00:00-04:00",
+    "validThrough": "2026-10-31T23:59:59-04:00",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "shippingDetails": [
+      {
+        "@type": "OfferShippingDetails",
+        "shippingRate": {
+          "@type": "MonetaryAmount",
+          "value": 0,
+          "currency": "USD"
+        },
+        "shippingDestination": {
+          "@type": "DefinedRegion",
+          "addressCountry": "US"
+        },
+        "shippingOrigin": {
+          "@type": "DefinedRegion",
+          "addressCountry": "US",
+          "addressRegion": [
+            "MA"
+          ]
+        },
+        "deliveryTime": {
+          "@type": "ShippingDeliveryTime",
+          "handlingTime": {
+            "@type": "QuantitativeValue",
+            "minValue": 0,
+            "maxValue": 1,
+            "unitCode": "DAY"
+          },
+          "transitTime": {
+            "@type": "QuantitativeValue",
+            "minValue": 2,
+            "maxValue": 5,
+            "unitCode": "DAY"
+          },
+          "cutoffTime": "14:00:00-04:00",
+          "businessDays": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "https://schema.org/Monday",
+              "https://schema.org/Tuesday",
+              "https://schema.org/Wednesday",
+              "https://schema.org/Thursday",
+              "https://schema.org/Friday"
+            ]
+          }
+        }
+      }
+    ],
+    "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": [
+        "US"
+      ],
+      "returnPolicyCountry": [
+        "US"
+      ],
+      "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+      "merchantReturnDays": 30,
+      "returnMethod": [
+        "https://schema.org/ReturnByMail",
+        "https://schema.org/ReturnInStore"
+      ],
+      "returnFees": "https://schema.org/ReturnShippingFees",
+      "returnShippingFeesAmount": {
+        "@type": "MonetaryAmount",
+        "value": 6.95,
+        "currency": "USD"
+      },
+      "merchantReturnLink": "https://www.example.com/help/returns"
+    }
+  }
+}

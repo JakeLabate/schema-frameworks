@@ -1,0 +1,12 @@
+{
+  "title": "Product Variants",
+  "page": "https://www.jakelabate.com/schema-frameworks/product-variants/",
+  "js": {
+    "file": "product-variants-schema.js",
+    "fn": "buildProductGroupSchema"
+  },
+  "python": {
+    "file": "product_variants_schema.py",
+    "fn": "build_product_group_schema"
+  }
+}

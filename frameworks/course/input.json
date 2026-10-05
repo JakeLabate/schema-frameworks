@@ -1,0 +1,14 @@
+{
+  "isIndexable": true,
+  "isContentVisible": true,
+  "url": "https://www.example.com/courses/intro-to-statistics",
+  "canonicalUrl": "https://www.example.com/courses/intro-to-statistics",
+  "listedOnUrl": "https://www.example.com/courses/",
+  "name": "Introduction to Statistics",
+  "description": "A twelve-week course covering probability, sampling, hypothesis testing, and regression, with weekly problem sets.",
+  "shortDescription": "Probability, sampling, testing, and regression.",
+  "provider": {
+    "name": "Example University",
+    "url": "https://www.example.edu"
+  }
+}

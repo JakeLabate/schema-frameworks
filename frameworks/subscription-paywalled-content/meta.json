@@ -1,0 +1,12 @@
+{
+  "title": "Subscription And Paywalled Content",
+  "page": "https://www.jakelabate.com/schema-frameworks/subscription-paywalled-content/",
+  "js": {
+    "file": "subscription-paywalled-content-schema.js",
+    "fn": "buildPaywalledContentSchema"
+  },
+  "python": {
+    "file": "subscription_paywalled_content_schema.py",
+    "fn": "build_paywalled_content_schema"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "site": {
+    "url": "https://www.example.com",
+    "name": "Harbor & Pine"
+  },
+  "page": {
+    "url": "https://www.example.com/careers/store-associate-portland/",
+    "title": "Store Associate, Portland | Harbor & Pine Careers",
+    "breadcrumbs": [
+      {
+        "name": "Home",
+        "url": "https://www.example.com/"
+      },
+      {
+        "name": "Careers",
+        "url": "https://www.example.com/careers/"
+      },
+      {
+        "name": "Store Associate, Portland",
+        "url": "https://www.example.com/careers/store-associate-portland/"
+      }
+    ]
+  },
+  "job": {
+    "title": "Store Associate (Req #2219)!",
+    "reference": "2219",
+    "descriptionHtml": "<p>Help customers find the right gear for the trail, run the till and keep the floor stocked at our Commercial Street store.</p><ul><li>Product advice and fitting</li><li>Receiving and stocking</li><li>Opening and closing shifts</li></ul><p>Staff discount and paid time off for guided trips.</p>",
+    "datePosted": "2026-09-28",
+    "validThrough": "2026-11-30",
+    "timezoneOffset": "-05:00",
+    "employmentType": [
+      "part_time",
+      "seasonal"
+    ],
+    "location": {
+      "name": "Harbor & Pine Portland",
+      "locationPageUrl": "https://www.example.com/stores/portland/",
+      "street": "214 Commercial Street",
+      "city": "Portland",
+      "region": "ME",
+      "postalCode": "04101",
+      "country": "US"
+    },
+    "pay": {
+      "currency": "USD",
+      "min": 18,
+      "max": 21,
+      "per": "hour"
+    },
+    "directApply": true,
+    "monthsExperience": 6
+  }
+}

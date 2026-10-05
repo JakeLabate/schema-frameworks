@@ -1,0 +1,12 @@
+{
+  "title": "Job Posting",
+  "page": "https://www.jakelabate.com/schema-frameworks/job-posting/",
+  "js": {
+    "file": "job-posting-schema.js",
+    "fn": "buildJobPostingSchema"
+  },
+  "python": {
+    "file": "job_posting_schema.py",
+    "fn": "build_job_posting_schema"
+  }
+}
