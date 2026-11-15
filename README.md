@@ -42,6 +42,29 @@ schema = build_dataset_schema(page_data)
 
 Copy the file into your project, or read `input.json` to see the shape of data it expects. Each builder has no dependencies.
 
+<!-- connector:start -->
+## Use it in a chat
+
+The builders are also offered to chat assistants as an MCP connector. Add this address to Claude, or to any assistant that supports MCP, and ask it to build markup for a page:
+
+```
+https://mcp.jakelabate.com/schema-frameworks/
+```
+
+It runs the builders in this repo, names the fields that stopped it when a page does not qualify, and links the page and the file behind every answer. No sign-in.
+
+| Ask | What happens |
+| --- | --- |
+| "Which framework fits this page?" | It lists the 40 frameworks with what each one is for. |
+| "What does Recipe markup need?" | It returns Google's rules, the checks the builder runs and every input field. |
+| "Build Recipe schema for this page." | It runs the real builder on the page's data and checks the result against Google's rules. |
+| "Why did it output nothing?" | It names the fields and the checks that stopped it. |
+| "Give me the Python builder." | It returns the source with its file on GitHub. |
+| "Is this JSON-LD valid?" | It checks any markup against Google's documented rules. |
+
+[How to add it](https://www.jakelabate.com/schema-frameworks/#build-schema-in-a-chat)
+<!-- connector:end -->
+
 ## Tests
 
 ```
@@ -49,6 +72,8 @@ npm test
 ```
 
 For every folder this runs the JavaScript builder on `input.json` and checks the result matches `output.jsonld`, runs the Python builder and checks it produces the same output, and checks `output.jsonld` with the validator against Google's rules. GitHub runs the same tests on every push.
+
+A few builders check dates in the data, such as an offer that has ended. Their tests run on the date recorded as `asOf` in `meta.json`, so an example gives the same answer every day.
 
 ## Frameworks (40)
 

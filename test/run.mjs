@@ -26,7 +26,9 @@ for (const dir of dirs) {
   const problems = [];
 
   const build = require(path.join(dir, meta.js.file))[meta.js.fn];
-  const actual = build(structuredClone(input));
+  // A builder that checks dates is run on the date meta.json records, so its
+  // example does not expire.
+  const actual = build(structuredClone(input), ...(meta.asOf ? [new Date(meta.asOf)] : []));
   if (JSON.stringify(actual) !== JSON.stringify(expected)) problems.push('JavaScript output differs from output.jsonld');
 
   // Validate the output and the nested parts that are rich results of their

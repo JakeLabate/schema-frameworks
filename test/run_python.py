@@ -5,6 +5,7 @@ output.jsonld (the JavaScript builder's output), so the two stay identical.
 """
 import importlib.util
 import json
+from datetime import datetime
 import pathlib
 import sys
 
@@ -34,7 +35,10 @@ for meta_path in sorted(ROOT.glob("*/*/meta.json")):
     try:
         spec.loader.exec_module(module)
         build = getattr(module, meta["python"]["fn"])
-        actual = normalise(build(json.loads((folder / "input.json").read_text())))
+        # A builder that checks dates is run on the date meta.json records, so
+        # its example does not expire.
+        as_of = [datetime.fromisoformat(meta["asOf"].replace("Z", "+00:00"))] if meta.get("asOf") else []
+        actual = normalise(build(json.loads((folder / "input.json").read_text()), *as_of))
     except Exception as error:  # noqa: BLE001
         failed += 1
         print(f"FAIL {folder.relative_to(ROOT)}\n  {type(error).__name__}: {error}")

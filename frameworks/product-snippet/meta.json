@@ -8,5 +8,6 @@
   "python": {
     "file": "product_snippet_schema.py",
     "fn": "build_product_schema"
-  }
+  },
+  "asOf": "2026-10-04T12:00:00.000Z"
 }

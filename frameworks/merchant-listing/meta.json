@@ -8,5 +8,6 @@
   "python": {
     "file": "merchant_listing_schema.py",
     "fn": "build_merchant_listing_schema"
-  }
+  },
+  "asOf": "2026-10-04T12:00:00.000Z"
 }
