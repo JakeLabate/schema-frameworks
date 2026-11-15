@@ -8,5 +8,6 @@
   "python": {
     "file": "job_posting_schema.py",
     "fn": "build_job_posting_schema"
-  }
+  },
+  "asOf": "2026-10-04T12:00:00.000Z"
 }
