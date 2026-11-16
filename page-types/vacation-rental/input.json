@@ -1,0 +1,133 @@
+{
+  "site": {
+    "url": "https://www.example.com"
+  },
+  "page": {
+    "url": "https://www.example.com/cabins/spruce-cove/",
+    "title": "Spruce Cove Cabin | Harbor & Pine Cabins",
+    "breadcrumbs": [
+      {
+        "name": "Home",
+        "url": "https://www.example.com/"
+      },
+      {
+        "name": "Cabins",
+        "url": "https://www.example.com/cabins/"
+      },
+      {
+        "name": "Spruce Cove Cabin",
+        "url": "https://www.example.com/cabins/spruce-cove/"
+      }
+    ]
+  },
+  "rental": {
+    "name": "Spruce Cove Cabin",
+    "listingId": "HPC-0412",
+    "type": "Cabin",
+    "hotelCenterBrand": "harbor-and-pine-cabins",
+    "description": "Two-bedroom cabin on Moosehead Lake with a wood stove, a dock and a screened porch.",
+    "photos": [
+      {
+        "url": "https://www.example.com/img/cabins/spruce-cove/exterior.jpg",
+        "shows": "exterior"
+      },
+      {
+        "url": "https://www.example.com/img/cabins/spruce-cove/living-room.jpg",
+        "shows": "common"
+      },
+      {
+        "url": "https://www.example.com/img/cabins/spruce-cove/kitchen.jpg",
+        "shows": "common"
+      },
+      {
+        "url": "https://www.example.com/img/cabins/spruce-cove/bedroom-1.jpg",
+        "shows": "bedroom"
+      },
+      {
+        "url": "https://www.example.com/img/cabins/spruce-cove/bedroom-2.jpg",
+        "shows": "bedroom"
+      },
+      {
+        "url": "https://www.example.com/img/cabins/spruce-cove/bathroom.jpg",
+        "shows": "bathroom"
+      },
+      {
+        "url": "https://www.example.com/img/cabins/spruce-cove/porch.jpg",
+        "shows": "common"
+      },
+      {
+        "url": "https://www.example.com/img/cabins/spruce-cove/dock.jpg",
+        "shows": "exterior"
+      },
+      {
+        "url": "/img/cabins/spruce-cove/floor-plan.jpg",
+        "shows": "other"
+      }
+    ],
+    "latitude": 45.46012,
+    "longitude": -69.59147,
+    "address": {
+      "street": "41 Cove Road",
+      "city": "Greenville",
+      "region": "ME",
+      "postalCode": "04441",
+      "country": "US"
+    },
+    "checkin": "16:00:00-05:00",
+    "checkout": "10:00:00-05:00",
+    "hostLanguages": [
+      "en-US",
+      "fr-CA"
+    ],
+    "unit": {
+      "kind": "EntirePlace",
+      "sleeps": 5,
+      "bedrooms": 2,
+      "bathrooms": 1.5,
+      "rooms": 5,
+      "floorArea": 1150,
+      "floorUnit": "FTK",
+      "beds": [
+        {
+          "type": "Queen",
+          "count": 1
+        },
+        {
+          "type": "Single",
+          "count": 2
+        },
+        {
+          "type": "Sofa bed",
+          "count": 0
+        }
+      ],
+      "amenities": {
+        "wifi": true,
+        "kitchen": true,
+        "fireplace": true,
+        "petsAllowed": false,
+        "parkingType": "Free",
+        "sauna": true,
+        "licenseNum": "Greenville STR-2026-118"
+      }
+    },
+    "rating": {
+      "value": 4.9,
+      "count": 86
+    },
+    "reviews": [
+      {
+        "author": "Priya Raman",
+        "rating": 5,
+        "date": "2026-08-02",
+        "stayed": "2026-07-24"
+      },
+      {
+        "author": "Tom Baird",
+        "rating": 4,
+        "date": "",
+        "stayed": "2026-06-10"
+      }
+    ]
+  }
+}

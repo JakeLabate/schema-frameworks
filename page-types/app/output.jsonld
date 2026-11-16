@@ -1,0 +1,88 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.example.com/app/#webpage",
+      "url": "https://www.example.com/app/",
+      "name": "Trail Log App | Harbor & Pine",
+      "isPartOf": {
+        "@id": "https://www.example.com/#website"
+      },
+      "breadcrumb": {
+        "@id": "https://www.example.com/app/#breadcrumb"
+      },
+      "mainEntity": {
+        "@id": "https://www.example.com/app/#app"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.example.com/app/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.example.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Trail Log App",
+          "item": "https://www.example.com/app/"
+        }
+      ]
+    },
+    {
+      "@type": "MobileApplication",
+      "@id": "https://www.example.com/app/#app",
+      "name": "Harbor & Pine Trail Log",
+      "description": "Log hikes, track gear wear and get care reminders for the kit you own.",
+      "url": "https://www.example.com/app/",
+      "image": [
+        "https://www.example.com/img/app/trail-log-icon.png",
+        "https://www.example.com/img/app/trail-log-screens.jpg"
+      ],
+      "operatingSystem": "iOS 16, Android 10",
+      "applicationCategory": "SportsApplication",
+      "softwareVersion": "3.2.0",
+      "downloadUrl": [
+        "https://apps.apple.com/us/app/example/id0000000000",
+        "https://play.google.com/store/apps/details?id=com.example.traillog"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "price": 0,
+        "priceCurrency": "USD"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.7,
+        "bestRating": 5,
+        "worstRating": 1,
+        "ratingCount": 2318
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Dana Whitfield"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": 5,
+            "bestRating": 5,
+            "worstRating": 1
+          },
+          "datePublished": "2026-08-14",
+          "reviewBody": "The gear care reminders saved my rain shell."
+        }
+      ],
+      "publisher": {
+        "@id": "https://www.example.com/#organization"
+      }
+    }
+  ]
+}

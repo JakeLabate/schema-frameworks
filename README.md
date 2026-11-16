@@ -134,6 +134,10 @@ Real pages use several features at once. These build the whole connected graph f
 | [Job Posting Page](https://www.jakelabate.com/schema-frameworks/page-types/job-posting/) | [`job-posting-page-schema.js`](page-types/job-posting/job-posting-page-schema.js) |
 | [Event Page](https://www.jakelabate.com/schema-frameworks/page-types/event/) | [`event-page-schema.js`](page-types/event/event-page-schema.js) |
 | [Forum Thread Page](https://www.jakelabate.com/schema-frameworks/page-types/forum-thread/) | [`forum-thread-page-schema.js`](page-types/forum-thread/forum-thread-page-schema.js) |
+| [Collection Page](https://www.jakelabate.com/schema-frameworks/page-types/collection/) | [`collection-page-schema.js`](page-types/collection/collection-page-schema.js) |
+| [Course Catalog Page](https://www.jakelabate.com/schema-frameworks/page-types/course-catalog/) | [`course-catalog-page-schema.js`](page-types/course-catalog/course-catalog-page-schema.js) |
+| [App Page](https://www.jakelabate.com/schema-frameworks/page-types/app/) | [`app-page-schema.js`](page-types/app/app-page-schema.js) |
+| [Vacation Rental Page](https://www.jakelabate.com/schema-frameworks/page-types/vacation-rental/) | [`vacation-rental-page-schema.js`](page-types/vacation-rental/vacation-rental-page-schema.js) |
 
 ## Prefer not to maintain markup yourself?
 

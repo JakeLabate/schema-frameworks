@@ -1,0 +1,10 @@
+{
+  "title": "Course Catalog Page",
+  "page": "https://www.jakelabate.com/schema-frameworks/page-types/course-catalog/",
+  "js": {
+    "file": "course-catalog-page-schema.js",
+    "fn": "buildCourseCatalogPageSchema"
+  },
+  "python": null,
+  "linksTo": "homepage"
+}

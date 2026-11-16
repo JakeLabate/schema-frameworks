@@ -1,0 +1,75 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": "https://www.example.com/journal/camp-recipes/#webpage",
+      "url": "https://www.example.com/journal/camp-recipes/",
+      "name": "Camp Recipes | Harbor & Pine Journal",
+      "description": "One-pot dinners, trail breakfasts and bakes that work on a camp stove.",
+      "isPartOf": {
+        "@id": "https://www.example.com/#website"
+      },
+      "publisher": {
+        "@id": "https://www.example.com/#organization"
+      },
+      "breadcrumb": {
+        "@id": "https://www.example.com/journal/camp-recipes/#breadcrumb"
+      },
+      "mainEntity": {
+        "@id": "https://www.example.com/journal/camp-recipes/#list"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.example.com/journal/camp-recipes/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.example.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Journal",
+          "item": "https://www.example.com/journal/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Camp Recipes",
+          "item": "https://www.example.com/journal/camp-recipes/"
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://www.example.com/journal/camp-recipes/#list",
+      "name": "Camp Recipes",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "url": "https://www.example.com/journal/one-pot-camp-chili/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "url": "https://www.example.com/journal/skillet-cornbread/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "url": "https://www.example.com/journal/overnight-trail-oats/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "url": "https://www.example.com/journal/foil-packet-salmon/"
+        }
+      ]
+    }
+  ]
+}

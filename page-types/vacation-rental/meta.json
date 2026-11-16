@@ -1,0 +1,10 @@
+{
+  "title": "Vacation Rental Page",
+  "page": "https://www.jakelabate.com/schema-frameworks/page-types/vacation-rental/",
+  "js": {
+    "file": "vacation-rental-page-schema.js",
+    "fn": "buildVacationRentalPageSchema"
+  },
+  "python": null,
+  "linksTo": "homepage"
+}

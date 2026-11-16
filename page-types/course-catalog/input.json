@@ -1,0 +1,49 @@
+{
+  "site": {
+    "url": "https://www.example.com"
+  },
+  "page": {
+    "url": "https://www.example.com/courses/",
+    "title": "Outdoor Skills Courses | Harbor & Pine",
+    "breadcrumbs": [
+      {
+        "name": "Home",
+        "url": "https://www.example.com/"
+      },
+      {
+        "name": "Courses",
+        "url": "https://www.example.com/courses/"
+      }
+    ]
+  },
+  "catalog": {
+    "name": "Outdoor Skills Courses",
+    "description": "Multi-week courses taught by Harbor & Pine guides at the Portland store and on the trail.",
+    "courses": [
+      {
+        "anchor": "map-and-compass",
+        "name": "Map And Compass Navigation",
+        "description": "Four evening classes and a field day on reading contour lines, taking bearings and planning a route without a phone.",
+        "summary": "Read a map, take a bearing and plan a route."
+      },
+      {
+        "anchor": "wilderness-first-aid",
+        "name": "Wilderness First Aid",
+        "description": "Two days of patient assessment, splinting and evacuation decisions.",
+        "summary": ""
+      },
+      {
+        "anchor": "winter-camping",
+        "name": "Winter Camping Foundations",
+        "description": "Six sessions on layering, snow shelters, stove safety and sleeping warm, ending with an overnight in the White Mountains.",
+        "summary": "Layering, shelters and sleeping warm in snow."
+      },
+      {
+        "anchor": "backcountry-cooking",
+        "name": "Backcountry Cooking",
+        "description": "Plan, pack and cook three days of meals on one stove.",
+        "summary": ""
+      }
+    ]
+  }
+}

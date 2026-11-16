@@ -1,0 +1,10 @@
+{
+  "title": "App Page",
+  "page": "https://www.jakelabate.com/schema-frameworks/page-types/app/",
+  "js": {
+    "file": "app-page-schema.js",
+    "fn": "buildAppPageSchema"
+  },
+  "python": null,
+  "linksTo": "homepage"
+}
