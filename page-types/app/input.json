@@ -1,0 +1,62 @@
+{
+  "site": {
+    "url": "https://www.example.com"
+  },
+  "page": {
+    "url": "https://www.example.com/app/",
+    "title": "Trail Log App | Harbor & Pine",
+    "breadcrumbs": [
+      {
+        "name": "Home",
+        "url": "https://www.example.com/"
+      },
+      {
+        "name": "Trail Log App",
+        "url": "https://www.example.com/app/"
+      }
+    ]
+  },
+  "app": {
+    "name": "Harbor & Pine Trail Log",
+    "description": "Log hikes, track gear wear and get care reminders for the kit you own.",
+    "platform": "mobile",
+    "isGame": false,
+    "operatingSystem": "iOS 16, Android 10",
+    "category": "SportsApplication",
+    "version": "3.2.0",
+    "images": [
+      "https://www.example.com/img/app/trail-log-icon.png",
+      "https://www.example.com/img/app/trail-log-screens.jpg"
+    ],
+    "storeLinks": [
+      "https://apps.apple.com/us/app/example/id0000000000",
+      "https://play.google.com/store/apps/details?id=com.example.traillog"
+    ],
+    "price": 0,
+    "currency": "USD",
+    "rating": {
+      "value": 4.7,
+      "count": 2318
+    },
+    "reviews": [
+      {
+        "author": "Dana Whitfield",
+        "rating": 5,
+        "date": "2026-08-14",
+        "text": "The gear care reminders saved my rain shell."
+      },
+      {
+        "author": "",
+        "rating": 4,
+        "date": "2026-09-02",
+        "text": "Good offline maps."
+      },
+      {
+        "author": "Luis Ortega",
+        "rating": 7,
+        "date": "2026-09-20",
+        "text": "Seven stars if I could."
+      }
+    ]
+  }
+}

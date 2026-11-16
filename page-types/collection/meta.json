@@ -1,0 +1,10 @@
+{
+  "title": "Collection Page",
+  "page": "https://www.jakelabate.com/schema-frameworks/page-types/collection/",
+  "js": {
+    "file": "collection-page-schema.js",
+    "fn": "buildCollectionPageSchema"
+  },
+  "python": null,
+  "linksTo": "homepage"
+}

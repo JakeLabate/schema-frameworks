@@ -1,0 +1,102 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": "https://www.example.com/courses/#webpage",
+      "url": "https://www.example.com/courses/",
+      "name": "Outdoor Skills Courses | Harbor & Pine",
+      "description": "Multi-week courses taught by Harbor & Pine guides at the Portland store and on the trail.",
+      "isPartOf": {
+        "@id": "https://www.example.com/#website"
+      },
+      "breadcrumb": {
+        "@id": "https://www.example.com/courses/#breadcrumb"
+      },
+      "mainEntity": {
+        "@id": "https://www.example.com/courses/#courses"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.example.com/courses/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.example.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Courses",
+          "item": "https://www.example.com/courses/"
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://www.example.com/courses/#courses",
+      "name": "Outdoor Skills Courses",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "Course",
+            "@id": "https://www.example.com/courses/#map-and-compass",
+            "name": "Map And Compass Navigation",
+            "description": "Read a map, take a bearing and plan a route.",
+            "url": "https://www.example.com/courses/#map-and-compass",
+            "provider": {
+              "@id": "https://www.example.com/#organization"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Course",
+            "@id": "https://www.example.com/courses/#wilderness-first-aid",
+            "name": "Wilderness First Aid",
+            "description": "Two days of patient assessment, splinting and evacuation decisions.",
+            "url": "https://www.example.com/courses/#wilderness-first-aid",
+            "provider": {
+              "@id": "https://www.example.com/#organization"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "Course",
+            "@id": "https://www.example.com/courses/#winter-camping",
+            "name": "Winter Camping Foundations",
+            "description": "Layering, shelters and sleeping warm in snow.",
+            "url": "https://www.example.com/courses/#winter-camping",
+            "provider": {
+              "@id": "https://www.example.com/#organization"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "Course",
+            "@id": "https://www.example.com/courses/#backcountry-cooking",
+            "name": "Backcountry Cooking",
+            "description": "Plan, pack and cook three days of meals on one stove.",
+            "url": "https://www.example.com/courses/#backcountry-cooking",
+            "provider": {
+              "@id": "https://www.example.com/#organization"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.example.com/cabins/spruce-cove/#webpage",
+      "url": "https://www.example.com/cabins/spruce-cove/",
+      "name": "Spruce Cove Cabin | Harbor & Pine Cabins",
+      "isPartOf": {
+        "@id": "https://www.example.com/#website"
+      },
+      "publisher": {
+        "@id": "https://www.example.com/#organization"
+      },
+      "breadcrumb": {
+        "@id": "https://www.example.com/cabins/spruce-cove/#breadcrumb"
+      },
+      "mainEntity": {
+        "@id": "https://www.example.com/cabins/spruce-cove/#rental"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.example.com/cabins/spruce-cove/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.example.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Cabins",
+          "item": "https://www.example.com/cabins/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Spruce Cove Cabin",
+          "item": "https://www.example.com/cabins/spruce-cove/"
+        }
+      ]
+    },
+    {
+      "@type": "VacationRental",
+      "@id": "https://www.example.com/cabins/spruce-cove/#rental",
+      "additionalType": "Cabin",
+      "name": "Spruce Cove Cabin",
+      "identifier": "HPC-0412",
+      "url": "https://www.example.com/cabins/spruce-cove/",
+      "description": "Two-bedroom cabin on Moosehead Lake with a wood stove, a dock and a screened porch.",
+      "brand": {
+        "@type": "Brand",
+        "name": "harbor-and-pine-cabins"
+      },
+      "image": [
+        "https://www.example.com/img/cabins/spruce-cove/exterior.jpg",
+        "https://www.example.com/img/cabins/spruce-cove/living-room.jpg",
+        "https://www.example.com/img/cabins/spruce-cove/kitchen.jpg",
+        "https://www.example.com/img/cabins/spruce-cove/bedroom-1.jpg",
+        "https://www.example.com/img/cabins/spruce-cove/bedroom-2.jpg",
+        "https://www.example.com/img/cabins/spruce-cove/bathroom.jpg",
+        "https://www.example.com/img/cabins/spruce-cove/porch.jpg",
+        "https://www.example.com/img/cabins/spruce-cove/dock.jpg"
+      ],
+      "latitude": 45.46012,
+      "longitude": -69.59147,
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "41 Cove Road",
+        "addressLocality": "Greenville",
+        "addressRegion": "ME",
+        "postalCode": "04441",
+        "addressCountry": "US"
+      },
+      "checkinTime": "16:00:00-05:00",
+      "checkoutTime": "10:00:00-05:00",
+      "knowsLanguage": [
+        "en-US",
+        "fr-CA"
+      ],
+      "containsPlace": {
+        "@type": "Accommodation",
+        "additionalType": "EntirePlace",
+        "occupancy": {
+          "@type": "QuantitativeValue",
+          "value": 5
+        },
+        "numberOfBedrooms": 2,
+        "numberOfBathroomsTotal": 1.5,
+        "numberOfRooms": 5,
+        "floorSize": {
+          "@type": "QuantitativeValue",
+          "value": 1150,
+          "unitCode": "FTK"
+        },
+        "bed": [
+          {
+            "@type": "BedDetails",
+            "numberOfBeds": 1,
+            "typeOfBed": "Queen"
+          },
+          {
+            "@type": "BedDetails",
+            "numberOfBeds": 2,
+            "typeOfBed": "Single"
+          }
+        ],
+        "amenityFeature": [
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "wifi",
+            "value": true
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "kitchen",
+            "value": true
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "fireplace",
+            "value": true
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "petsAllowed",
+            "value": false
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "parkingType",
+            "value": "Free"
+          },
+          {
+            "@type": "LocationFeatureSpecification",
+            "name": "licenseNum",
+            "value": "Greenville STR-2026-118"
+          }
+        ]
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.9,
+        "bestRating": 5,
+        "worstRating": 1,
+        "ratingCount": 86
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Priya Raman"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": 5,
+            "bestRating": 5,
+            "worstRating": 1
+          },
+          "datePublished": "2026-08-02",
+          "contentReferenceTime": "2026-07-24"
+        }
+      ]
+    }
+  ]
+}
